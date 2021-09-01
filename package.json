@@ -29,7 +29,8 @@
     "d3-axis": "^2.0.0",
     "d3-scale": "^3.2.3",
     "d3-selection": "^2.0.0",
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "topojson-client": "^3.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
