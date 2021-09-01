@@ -1,0 +1,26 @@
+@import '~@reuters-graphics/style-theme-eisbaer/scss/main';
+@import '~@reuters-graphics/style-color/scss/thematic/brand';
+
+$CountyMap-container: '#us-county-map-new-container' !default;
+
+#{$CountyMap-container} {
+  /* Write your chart styles here */
+  .axis {
+    pointer-events: none;
+    text {
+      font-family: $font-family-sans-serif;
+      fill: $gray-400;
+      font-size: 0.875rem;
+    }
+
+    line,
+    path {
+      stroke: $gray-600;
+      stroke-width: 1px;
+    }
+
+    path.domain {
+      display: none;
+    }
+  }
+}

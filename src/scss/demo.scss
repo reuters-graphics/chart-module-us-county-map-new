@@ -1,0 +1,89 @@
+@use "chart";
+@import "~@reuters-graphics/style-theme-eisbaer/scss/main";
+@import "~@reuters-graphics/style-color/scss/thematic/brand";
+
+
+// Some styles for the demo page...
+
+#us-county-map-new-container {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+h5 {
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+nav.nav{
+  padding: 20px 0;
+  text-align: center;
+  svg{
+    margin: 0 auto;
+    fill: $brand-secondary;
+    .st4{
+      fill: $brand;
+    }
+  }
+}
+
+section.graphic {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section.graphic.mobile {
+  max-width: 330px;
+}
+
+div.chart-options {
+  margin-top: 20px;
+  text-align: center;
+
+  button {
+    @include font-sans;
+    background-color: transparent;
+    color: #666;
+    border: 1px solid #ccc;
+    margin: 3px 2px;
+    padding: 5px 15px;
+    border-radius: 2px;
+    &:active, &:focus, &:hover{
+      outline: none;
+      border: 1px solid #666;
+    }
+    
+  }
+}
+
+div.size-options{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #ccc;
+  button{
+    border-radius: 0;
+    border: 1px solid #ccc;
+    border-right: 0;
+    height: 18px;
+    width: 20px;
+    outline: none;
+    &.active {
+      background-color: #ccc;
+    }
+    &:first-of-type{
+      margin-left: 10px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    &:last-of-type{
+      margin-right: 10px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-right: 1px solid #ccc;
+    }
+  }
+}
