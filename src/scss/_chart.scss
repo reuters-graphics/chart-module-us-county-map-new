@@ -1,7 +1,7 @@
 @import '~@reuters-graphics/style-theme-eisbaer/scss/main';
 @import '~@reuters-graphics/style-color/scss/thematic/brand';
 
-$CountyMap-container: '#us-county-map-new-container' !default;
+$CountyMap-container: '.us-county-map-container' !default;
 $defaultFill: $gray-100;
 
 #{$CountyMap-container} {

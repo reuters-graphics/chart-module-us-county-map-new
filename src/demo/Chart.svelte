@@ -6,58 +6,99 @@ Follow the notes below! -->
   import Docs from './App/Docs.svelte';
   import Explorer from './App/Explorer.svelte';
   import CountyMap from '../js/index';
-
-  let chart = new CountyMap();
+  import choroplethData from '../js/data/choroplethData.json';
 
   let chartContainer;
+
+  let chart = new CountyMap();
+  let partialChart = new CountyMap();
+
+  let partialMapProps = {
+    stateLabelType: (d) => d.name,
+    showTheseStates: ['Alabama', 'Louisiana', 'Mississippi'],
+    hideOtherStates: true,
+    data: {
+      url: 'https://graphics.thomsonreuters.com/data/ida_power.json', // leave null if pulling data from a local json file
+      valueColName: 'OutageCount', // Column name of the values you want to chart
+      missingDataFill: 'white',
+    },
+  };
+
   // let chartData = getRandomData();
 
-  let circleFill = 'steelblue';
-  // ...
-
   // 🎈 Tie your custom props back together into one chartProps object.
-  $: chartProps = { fill: circleFill };
+  // $: chartProps = { fill: circleFill };
 
   afterUpdate(() => {
     // 💪 Create a new chart instance of your module.
     chart = new CountyMap();
     // ⚡ And let's use your chart!
-    chart
-      .selection(chartContainer)
-      // .data(chartData) // Pass your chartData
-      // .props(chartProps) // Pass your chartProps
-      .draw(); // 🚀 DRAW IT!
-  });
+    chart.selection(chartContainer).props({ data: null }).draw(); // 🚀 DRAW IT!
 
-  // Creates array of random variables for 3 circles.
-  function getRandomData() {
-    const arr = [];
-    for (let i = 0; i < 3; i++) {
-      const d = {
-        x: Math.floor(Math.random() * Math.floor(100)), //Random int 0-100
-        y: Math.floor(Math.random() * Math.floor(100)), //Random int 0-100
-        r: Math.floor(Math.random() * Math.floor(30 - 10) + 10), //Random int 10-30
-      };
-      arr.push(d);
-    }
-    return arr;
-  }
+    partialChart
+      .selection('#partial-map')
+      .mapData(choroplethData)
+      .props(partialMapProps)
+      .draw();
+  });
 </script>
 
-<div id="us-county-map-new-container" bind:this={chartContainer} />
+<div class="important pb-5">
+  <h2>Important links</h2>
+  <p>
+    <a href="" target="_blank">Chart module repo</a>
+  </p>
+  <p>
+    <a href="" target="_blank">Readme for props</a>
+  </p>
+  <p>
+    Note: Styles, such as fill and stroke colour, are set in the _chart.scss
+    compoenet. If you want to customise, use ejector.
+  </p>
+</div>
+
+<div class="full-map">
+  <h3>U.S. county map</h3>
+  <div
+    id="full-map"
+    class="us-county-map-container"
+    bind:this={chartContainer}
+  />
+  <p>
+    You can draw a complete map with counties right out of the box with the
+    following code.
+  </p>
+  <pre>
+  <code>
+    let chart = new CountyMap();
+chart
+    .selection(yourChartContainer)
+    .props(&#123;data:null&#125;) 
+    .draw()
+
+    IMPORTANT! Don't forget to add the &#123;data:null&#125; prop
+    if you want to draw just a base map with no data
+  </code>
+  </pre>
+</div>
+
+<div class="partial-map pt-5">
+  <h3>Partial U.S. county map</h3>
+  <div id="partial-map" class="us-county-map-container" />
+  <p>You can filter for just the states you're interested in.</p>
+  <pre>
+  <code>
+    let chart = new CountyMap();
+chart
+    .selection(yourChartContainer)
+    .props(ADD PROPS)
+    .draw()
+  </code>
+  </pre>
+</div>
 
 <div class="chart-options">
   <!-- ✏️ Create buttons that update your data/props variables when they're clicked! -->
-  <button
-    on:click={() => {
-      chartData = getRandomData();
-    }}>New data</button
-  >
-  <button
-    on:click={() => {
-      circleFill = circleFill === 'orange' ? 'steelblue' : 'orange';
-    }}>Change fill</button
-  >
 </div>
 
 <!-- ⚙️ These components will automatically create interactive documentation for you chart! -->
@@ -67,9 +108,16 @@ Follow the notes below! -->
 
 <!-- 🖌️ Style your demo page here -->
 <style lang="scss">
-  .chart-options {
-    button {
-      padding: 5px 15px;
+  .important {
+    p {
+      margin: 0;
+      font-size: 1.4rem;
+      // color: red;
     }
   }
+  // .chart-options {
+  //   button {
+  //     padding: 5px 15px;
+  //   }
+  // }
 </style>

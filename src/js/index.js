@@ -1,16 +1,17 @@
-// import 'd3-transition';
-
 import * as d3 from 'd3';
 import * as topojson from 'topojson-client';
 import * as utils from './utils';
 
 import { appendSelect } from 'd3-appendselect';
-// import cities from './data/cities.json';
+// import choroplethData from './data/choroplethData.json'
+import fipsStateCodes from './data/fipsStateCodes.json'
 import labelPos from './data/labelPos.json';
 import merge from 'lodash/merge';
-// import statePlanes from './data/statePlanes_fips.json';
 import statestyle from './data/statestyle.json';
 import topo from './data/us-county-topo.json';
+
+// import cities from './data/cities.json';
+// import statePlanes from './data/statePlanes_fips.json';
 
 d3.selection.prototype.appendSelect = appendSelect;
 
@@ -32,6 +33,12 @@ class CountyMap {
     return this;
   }
 
+  mapData(newData) {
+    if (!newData) return this._data || this.defaultData;
+    this._data = newData;
+    return this;
+  }
+
   props(newProps) {
     if (!newProps) return this._props || this.defaultProps;
     this._props = merge(this._props || this.defaultProps, newProps);
@@ -46,6 +53,39 @@ class CountyMap {
       bottom: 0,
       left: 0,
     },
+
+    // Projection
+    projection: d3.geoAlbersUsa(), //Use d3.geoMercator(); if not showing the entire U.S.,
+
+    // State label style
+    stateLabelType: d => d.ap, // Change to d.name for full state names ,d.postal for postal codes
+
+    /* Add a list of states you want to filter for/zoom into. 
+    Make sure they're fully spelled out; no abbreviations. 
+    Set to 'null' if you want to show all states
+    */
+    showTheseStates: null, // ['Alabama', 'Louisiana', 'Mississippi'] 
+    hideOtherStates: false, // set to true if you want to hide all other states
+
+    // Add data to make a choropleth map
+    /* NOTE:
+    - Make sure the county FIPS code in your data is formatted correctly. It should have 5 digits. 
+      Use utils.pad() if you need to add leading 0's
+    - Column containing county FIPS code in your data should be named "fips"
+ - Make data: null if you're not mapping any data
+    */
+    data: {
+      url: 'https://graphics.thomsonreuters.com/data/ida_power.json',
+      valueColName: 'OutageCount', // Column name of the values you want to chart
+      missingDataFill: 'white',
+    },
+
+    // Colour scale
+    colorScale: {
+      scaleType: d3.scaleSequential,
+      colorScheme: d3.interpolateOranges,
+      domain: [0, 100]
+    }
   };
 
   setData() {
@@ -67,19 +107,38 @@ class CountyMap {
     });
   }
 
+  filterData() {
+    const props = this.props()
+    let lookupStateFips = {};
+    fipsStateCodes.forEach((d) => {
+      lookupStateFips[d.STATE_NAME] = utils.pad(d.STATE, 2)
+    });
+
+    let fipsList = []
+    props.showTheseStates.forEach(stateName => {
+      let fips = lookupStateFips[stateName]
+      fipsList.push(fips)
+    })
+
+    let filteredData = this.counties.features.filter((d) => {
+      let state = d.id.substring(0, 2);
+      return fipsList.includes(state);
+    });
+    this.filteredData = filteredData;
+    this.us.features = this.filteredData; // Redefines projection extent
+  }
+
   setProjection() {
+    const props = this.props()
     //Set the projection and path function
-    this.projection = d3.geoAlbersUsa(); //d3.geoMercator();
+    this.projection = props.projection
     this.path = d3.geoPath().projection(this.projection);
   }
 
   colorScale() {
-    // const colorScaleMin = d3.min(data, function (d) { return +props.colorScaleDomain(d); })
-    // const colorScaleMax = d3.max(data, function (d) { return +props.colorScaleDomain(d); })
-    this.colorScale = d3
-      .scaleSequential(d3.interpolateOranges)
-      .domain([0, 100]);
-    // console.log(this.colorScale(0), this.colorScale(25), this.colorScale(50), this.colorScale(75), this.colorScale(100))
+    const props = this.props()
+    this.colorScale = props.colorScale.scaleType(props.colorScale.colorScheme)
+      .domain(props.colorScale.domain);
   }
 
   drawBase() {
@@ -87,6 +146,7 @@ class CountyMap {
 
     //Update our data and scales when the page redraws
     this.setData();
+    if (props.showTheseStates !== null) this.filterData()
     this.setProjection();
 
     //Define our target selection
@@ -141,6 +201,7 @@ class CountyMap {
 
   drawLabels() {
     const plot = this.plot;
+    const props = this.props()
 
     const labelsGroup = plot.appendSelect('g.labels-g');
 
@@ -148,14 +209,22 @@ class CountyMap {
       return labelPos[utils.pad(d.fips, 2)];
     });
 
+    let filteredLabels;
+    if (props.showTheseStates !== null) {
+      filteredLabels = labelsArray.filter((d) => {
+        let stateFullName = d.name;
+
+        if (props.showTheseStates.includes(stateFullName)) {
+          return d => { props.stateLabelType(d) }
+        }
+      });
+
+      labelsArray = filteredLabels
+    }
+
     const stateLabels = labelsGroup
       .selectAll('.state-label')
-      .data(
-        labelsArray
-        // filteredLabels
-        , (d) => {
-          return d.ap;
-        })
+      .data(labelsArray)
       .join('g')
       .attr('class', (d) => `state-label ${d.postal}`)
       .attr('transform', (d) => {
@@ -168,21 +237,28 @@ class CountyMap {
 
     stateLabels
       .appendSelect('text.st.bkgd')
-      .text((d) => d.name) //d.ap for abbreviate state names
+      .text((d) => props.stateLabelType(d))
       .attr('y', -8);
 
     stateLabels
       .appendSelect('text.st.front')
-      .text((d) => d.name) //d.ap for abbreviate state names
-      .attr('y', -8);
+      .text((d) => props.stateLabelType(d)).attr('y', -8);
   }
 
-  drawMap() {
+  drawBasicMap() {
     const plot = this.plot;
+    const props = this.props()
     const countiesGroup = plot.appendSelect('g.counties-g.features-g');
+
+    let countiesData
+    if (props.showTheseStates !== null && props.hideOtherStates) {
+      countiesData = this.filteredData
+    } else {
+      countiesData = this.counties.features
+    }
     const counties = countiesGroup
       .selectAll('.county')
-      .data(this.counties.features, (d) => {
+      .data(countiesData, (d) => {
         return d.id;
       })
       .join('path')
@@ -194,23 +270,157 @@ class CountyMap {
     this.drawLabels();
   }
 
-  addTimeStamp() {
-    // const url = this.dataURL;
-    // d3.json(url).then((powerOutageData) => {
-    //   let parsedTime = Date.parse(powerOutageData.timeStamp);
-    //   const timeFormatter = d3.timeFormat('%B %d, %-I:%M %p');
-    //   const formattedTime = timeFormatter(parsedTime);
+  drawMapWithDataStatic() {
+    const plot = this.plot;
+    const props = this.props()
+    const mapData = this.mapData()
+    const countiesGroup = plot.appendSelect('g.counties-g.features-g');
 
-    //   // Fill span tag with formatted time
-    //   d3.select('span#update-time').text(formattedTime);
-    // });
+    let countiesData
+    if (props.showTheseStates !== null && props.hideOtherStates) {
+      countiesData = this.filteredData
+    } else {
+      countiesData = this.counties.features
+    }
+
+    /* MAKE LOOKUP OBJECT AND DRAW COUNTIES */
+    let lookupObj = {};
+    console.log('data', this.data())
+    console.log('mapData', mapData)
+
+    // Local json data version START HERE. Replace url map data with local mapdata
+
+
+    // d3.json(props.data.url).then((mapData) => {
+    //   Object.keys(mapData)
+    //     .filter((stateName) => stateName !== 'timeStamp')
+    //     .forEach((stateName) => {
+    //       let stateData = mapData[stateName].WebCountyRecord;
+
+    //       stateData.forEach((d) => {
+    //         lookupObj[d.fips] = d;
+    //         lookupObj[d.fips]['state'] = stateName;
+    //         lookupObj[d.fips][props.data.valueColName] = d[props.data.valueColName]
+
+    //         /* If you need to make calculations and map out those values, do something like this:  */
+    //         //  lookupObj[d.fips]['calculatedValue'] = (d.OutageCount / d.CustomerCount) * 100;
+    //         // });
+    //       });
+
+    //     });
+
+    //   const countiesGroup = plot.appendSelect('g.counties-g.features-g');
+    //   const counties = countiesGroup
+    //     .selectAll('.county')
+    //     .data(countiesData, (d) => {
+    //       return d.id;
+    //     })
+    //     .join('path')
+    //     .attr('class', 'county')
+    //     .attr('d', this.path)
+    //     .style('fill', (d) => {
+    //       /* Check if fips code exists in the data */
+    //       let fips = d.id; //FIPS code from base map shapefile
+    //       let datum = lookupObj[fips] ? lookupObj[fips] : null;
+    //       if (!datum) {
+    //         return props.data.missingDataFill; // Make white if data for this county
+    //       } else {
+    //         return this.colorScale(datum[props.data.valueColName]);
+    //       }
+    //     });
+
+    this.drawStates()
+    this.drawBorders();
+    this.drawLabels();
   }
 
+  drawMapWithDataDynamic() {
+    const plot = this.plot;
+    const props = this.props()
+    const mapData = this.mapData()
+    const countiesGroup = plot.appendSelect('g.counties-g.features-g');
+
+    let countiesData
+    if (props.showTheseStates !== null && props.hideOtherStates) {
+      countiesData = this.filteredData
+    } else {
+      countiesData = this.counties.features
+    }
+
+    /* MAKE LOOKUP OBJECT AND DRAW COUNTIES */
+    let lookupObj = {};
+
+    d3.json(props.data.url).then((mapData) => {
+      Object.keys(mapData)
+        .filter((stateName) => stateName !== 'timeStamp')
+        .forEach((stateName) => {
+          let stateData = mapData[stateName].WebCountyRecord;
+
+          stateData.forEach((d) => {
+            lookupObj[d.fips] = d;
+            lookupObj[d.fips]['state'] = stateName;
+            lookupObj[d.fips][props.data.valueColName] = d[props.data.valueColName]
+
+            /* If you need to make calculations and map out those values, do something like this:  */
+            //  lookupObj[d.fips]['calculatedValue'] = (d.OutageCount / d.CustomerCount) * 100;
+            // });
+          });
+
+        });
+
+      const countiesGroup = plot.appendSelect('g.counties-g.features-g');
+      const counties = countiesGroup
+        .selectAll('.county')
+        .data(countiesData, (d) => {
+          return d.id;
+        })
+        .join('path')
+        .attr('class', 'county')
+        .attr('d', this.path)
+        .style('fill', (d) => {
+          /* Check if fips code exists in the data */
+          let fips = d.id; //FIPS code from base map shapefile
+          let datum = lookupObj[fips] ? lookupObj[fips] : null;
+          if (!datum) {
+            return props.data.missingDataFill; // Make white if data for this county
+          } else {
+            return this.colorScale(datum[props.data.valueColName]);
+          }
+        });
+
+      this.drawStates()
+      this.drawBorders();
+      this.drawLabels();
+    })
+  }
+
+  // If your data has a time stamp and you want to add it to the page
+  // addTimeStamp() {
+  // const url = this.dataURL;
+  // d3.json(url).then((mapData) => {
+  //   let parsedTime = Date.parse(mapData.timeStamp);
+  //   const timeFormatter = d3.timeFormat('%B %d, %-I:%M %p');
+  //   const formattedTime = timeFormatter(parsedTime);
+
+  //   // Fill span tag with formatted time
+  //   d3.select('span#update-time').text(formattedTime);
+  // });
+  // }
+
   draw() {
+    const props = this.props()
     this.colorScale();
     this.drawBase();
-    this.drawMap();
-    this.addTimeStamp();
+
+    if (props.data == null) {
+      this.drawBasicMap();
+    } else if (props.data.url) {
+      this.drawMapWithDataDynamic()
+    } else {
+      this.drawMapWithDataStatic()
+    }
+
+    // this.addTimeStamp();
     return this; // Generally, always return the chart class from draw!
   }
 }

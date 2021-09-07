@@ -1,0 +1,5809 @@
+{
+    "timeStamp": "2021-09-07T20:33:13.604Z",
+    "Texas": {
+        "WebCountyRecord": [
+            {
+                "CountyId": 1326,
+                "UtilityId": null,
+                "CountyName": "Anderson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 24900,
+                "fips": "48001"
+            },
+            {
+                "CountyId": 1327,
+                "UtilityId": null,
+                "CountyName": "Andrews",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 10606,
+                "fips": "48003"
+            },
+            {
+                "CountyId": 1328,
+                "UtilityId": null,
+                "CountyName": "Angelina",
+                "CountyState": null,
+                "CountyStatus": "#03509F",
+                "OutageCount": 70,
+                "CustomerCount": 44506,
+                "fips": "48005"
+            },
+            {
+                "CountyId": 1329,
+                "UtilityId": null,
+                "CountyName": "Aransas",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 19756,
+                "fips": "48007"
+            },
+            {
+                "CountyId": 1330,
+                "UtilityId": null,
+                "CountyName": "Archer",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4921,
+                "fips": "48009"
+            },
+            {
+                "CountyId": 1331,
+                "UtilityId": null,
+                "CountyName": "Atascosa",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12052,
+                "fips": "48013"
+            },
+            {
+                "CountyId": 1332,
+                "UtilityId": null,
+                "CountyName": "Bastrop",
+                "CountyState": null,
+                "CountyStatus": "#03509F",
+                "OutageCount": 101,
+                "CustomerCount": 59495,
+                "fips": "48021"
+            },
+            {
+                "CountyId": 1333,
+                "UtilityId": null,
+                "CountyName": "Baylor",
+                "CountyState": null,
+                "CountyStatus": "#26627C",
+                "OutageCount": 1,
+                "CustomerCount": 43,
+                "fips": "48023"
+            },
+            {
+                "CountyId": 1334,
+                "UtilityId": null,
+                "CountyName": "Bee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 13430,
+                "fips": "48025"
+            },
+            {
+                "CountyId": 1335,
+                "UtilityId": null,
+                "CountyName": "Bell",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 5,
+                "CustomerCount": 159981,
+                "fips": "48027"
+            },
+            {
+                "CountyId": 1336,
+                "UtilityId": null,
+                "CountyName": "Borden",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1385,
+                "fips": "48033"
+            },
+            {
+                "CountyId": 1337,
+                "UtilityId": null,
+                "CountyName": "Bosque",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10696,
+                "fips": "48035"
+            },
+            {
+                "CountyId": 1338,
+                "UtilityId": null,
+                "CountyName": "Brazoria",
+                "CountyState": null,
+                "CountyStatus": "#05519D",
+                "OutageCount": 421,
+                "CustomerCount": 145867,
+                "fips": "48039"
+            },
+            {
+                "CountyId": 1339,
+                "UtilityId": null,
+                "CountyName": "Brewster",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5699,
+                "fips": "48043"
+            },
+            {
+                "CountyId": 1340,
+                "UtilityId": null,
+                "CountyName": "Briscoe",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1760,
+                "fips": "48045"
+            },
+            {
+                "CountyId": 1341,
+                "UtilityId": null,
+                "CountyName": "Brooks",
+                "CountyState": null,
+                "CountyStatus": "#04519E",
+                "OutageCount": 10,
+                "CustomerCount": 4408,
+                "fips": "48047"
+            },
+            {
+                "CountyId": 1342,
+                "UtilityId": null,
+                "CountyName": "Brown",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 27222,
+                "fips": "48049"
+            },
+            {
+                "CountyId": 1343,
+                "UtilityId": null,
+                "CountyName": "Burnet",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 28532,
+                "fips": "48053"
+            },
+            {
+                "CountyId": 1344,
+                "UtilityId": null,
+                "CountyName": "Caldwell",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 20697,
+                "fips": "48055"
+            },
+            {
+                "CountyId": 1345,
+                "UtilityId": null,
+                "CountyName": "Calhoun",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7711,
+                "fips": "48057"
+            },
+            {
+                "CountyId": 1346,
+                "UtilityId": null,
+                "CountyName": "Callahan",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 13438,
+                "fips": "48059"
+            },
+            {
+                "CountyId": 1347,
+                "UtilityId": null,
+                "CountyName": "Cameron",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 113848,
+                "fips": "48061"
+            },
+            {
+                "CountyId": 1348,
+                "UtilityId": null,
+                "CountyName": "Chambers",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 8,
+                "CustomerCount": 22855,
+                "fips": "48071"
+            },
+            {
+                "CountyId": 1349,
+                "UtilityId": null,
+                "CountyName": "Cherokee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 28460,
+                "fips": "48073"
+            },
+            {
+                "CountyId": 1350,
+                "UtilityId": null,
+                "CountyName": "Childress",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2968,
+                "fips": "48075"
+            },
+            {
+                "CountyId": 1351,
+                "UtilityId": null,
+                "CountyName": "Clay",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5111,
+                "fips": "48077"
+            },
+            {
+                "CountyId": 1352,
+                "UtilityId": null,
+                "CountyName": "Coke",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4471,
+                "fips": "48081"
+            },
+            {
+                "CountyId": 1353,
+                "UtilityId": null,
+                "CountyName": "Coleman",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 980,
+                "fips": "48083"
+            },
+            {
+                "CountyId": 1354,
+                "UtilityId": null,
+                "CountyName": "Collin",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 142,
+                "CustomerCount": 341119,
+                "fips": "48085"
+            },
+            {
+                "CountyId": 1355,
+                "UtilityId": null,
+                "CountyName": "Colorado",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 15259,
+                "fips": "48089"
+            },
+            {
+                "CountyId": 1356,
+                "UtilityId": null,
+                "CountyName": "Comanche",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 16770,
+                "fips": "48093"
+            },
+            {
+                "CountyId": 1357,
+                "UtilityId": null,
+                "CountyName": "Concho",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 1,
+                "CustomerCount": 2690,
+                "fips": "48095"
+            },
+            {
+                "CountyId": 1358,
+                "UtilityId": null,
+                "CountyName": "Cooke",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 23692,
+                "fips": "48097"
+            },
+            {
+                "CountyId": 1359,
+                "UtilityId": null,
+                "CountyName": "Coryell",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 22148,
+                "fips": "48099"
+            },
+            {
+                "CountyId": 1360,
+                "UtilityId": null,
+                "CountyName": "Cottle",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 831,
+                "fips": "48101"
+            },
+            {
+                "CountyId": 1361,
+                "UtilityId": null,
+                "CountyName": "Crane",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 1,
+                "CustomerCount": 3033,
+                "fips": "48103"
+            },
+            {
+                "CountyId": 1362,
+                "UtilityId": null,
+                "CountyName": "Crockett",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4976,
+                "fips": "48105"
+            },
+            {
+                "CountyId": 1363,
+                "UtilityId": null,
+                "CountyName": "Culberson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1466,
+                "fips": "48109"
+            },
+            {
+                "CountyId": 1364,
+                "UtilityId": null,
+                "CountyName": "Dallas",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 150,
+                "CustomerCount": 1020739,
+                "fips": "48113"
+            },
+            {
+                "CountyId": 1365,
+                "UtilityId": null,
+                "CountyName": "Dawson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9274,
+                "fips": "48115"
+            },
+            {
+                "CountyId": 1366,
+                "UtilityId": null,
+                "CountyName": "Delta",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3043,
+                "fips": "48119"
+            },
+            {
+                "CountyId": 1367,
+                "UtilityId": null,
+                "CountyName": "Denton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 180133,
+                "fips": "48121"
+            },
+            {
+                "CountyId": 1368,
+                "UtilityId": null,
+                "CountyName": "Dewitt",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10325,
+                "fips": "48123"
+            },
+            {
+                "CountyId": 1369,
+                "UtilityId": null,
+                "CountyName": "Dickens",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1081,
+                "fips": "48125"
+            },
+            {
+                "CountyId": 1370,
+                "UtilityId": null,
+                "CountyName": "Dimmit",
+                "CountyState": null,
+                "CountyStatus": "#1B5C87",
+                "OutageCount": 97,
+                "CustomerCount": 5904,
+                "fips": "48127"
+            },
+            {
+                "CountyId": 1371,
+                "UtilityId": null,
+                "CountyName": "Duval",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 4,
+                "CustomerCount": 12894,
+                "fips": "48131"
+            },
+            {
+                "CountyId": 1372,
+                "UtilityId": null,
+                "CountyName": "Eastland",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 18385,
+                "fips": "48133"
+            },
+            {
+                "CountyId": 1373,
+                "UtilityId": null,
+                "CountyName": "Ector",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 83691,
+                "fips": "48135"
+            },
+            {
+                "CountyId": 1374,
+                "UtilityId": null,
+                "CountyName": "Edwards",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5992,
+                "fips": "48137"
+            },
+            {
+                "CountyId": 1375,
+                "UtilityId": null,
+                "CountyName": "Ellis",
+                "CountyState": null,
+                "CountyStatus": "#03509F",
+                "OutageCount": 130,
+                "CustomerCount": 82316,
+                "fips": "48139"
+            },
+            {
+                "CountyId": 1376,
+                "UtilityId": null,
+                "CountyName": "Erath",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 19133,
+                "fips": "48143"
+            },
+            {
+                "CountyId": 1377,
+                "UtilityId": null,
+                "CountyName": "Falls",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 10416,
+                "fips": "48145"
+            },
+            {
+                "CountyId": 1378,
+                "UtilityId": null,
+                "CountyName": "Fannin",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 21988,
+                "fips": "48147"
+            },
+            {
+                "CountyId": 1379,
+                "UtilityId": null,
+                "CountyName": "Fisher",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1719,
+                "fips": "48151"
+            },
+            {
+                "CountyId": 1380,
+                "UtilityId": null,
+                "CountyName": "Foard",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1073,
+                "fips": "48155"
+            },
+            {
+                "CountyId": 1381,
+                "UtilityId": null,
+                "CountyName": "Fort Bend",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 120,
+                "CustomerCount": 317022,
+                "fips": "48157"
+            },
+            {
+                "CountyId": 1382,
+                "UtilityId": null,
+                "CountyName": "Franklin",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8375,
+                "fips": "48159"
+            },
+            {
+                "CountyId": 1383,
+                "UtilityId": null,
+                "CountyName": "Freestone",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11805,
+                "fips": "48161"
+            },
+            {
+                "CountyId": 1384,
+                "UtilityId": null,
+                "CountyName": "Frio",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9686,
+                "fips": "48163"
+            },
+            {
+                "CountyId": 1385,
+                "UtilityId": null,
+                "CountyName": "Gaines",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 12871,
+                "fips": "48165"
+            },
+            {
+                "CountyId": 1386,
+                "UtilityId": null,
+                "CountyName": "Galveston",
+                "CountyState": null,
+                "CountyStatus": "#03509F",
+                "OutageCount": 234,
+                "CustomerCount": 131850,
+                "fips": "48167"
+            },
+            {
+                "CountyId": 1387,
+                "UtilityId": null,
+                "CountyName": "Glasscock",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4415,
+                "fips": "48173"
+            },
+            {
+                "CountyId": 1388,
+                "UtilityId": null,
+                "CountyName": "Goliad",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4439,
+                "fips": "48175"
+            },
+            {
+                "CountyId": 1389,
+                "UtilityId": null,
+                "CountyName": "Gonzales",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 14747,
+                "fips": "48177"
+            },
+            {
+                "CountyId": 1390,
+                "UtilityId": null,
+                "CountyName": "Grayson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 14,
+                "CustomerCount": 52963,
+                "fips": "48181"
+            },
+            {
+                "CountyId": 1391,
+                "UtilityId": null,
+                "CountyName": "Guadalupe",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 71101,
+                "fips": "48187"
+            },
+            {
+                "CountyId": 1392,
+                "UtilityId": null,
+                "CountyName": "Hall",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1915,
+                "fips": "48191"
+            },
+            {
+                "CountyId": 1393,
+                "UtilityId": null,
+                "CountyName": "Hardeman",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2559,
+                "fips": "48197"
+            },
+            {
+                "CountyId": 1394,
+                "UtilityId": null,
+                "CountyName": "Harris",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 275,
+                "CustomerCount": 1992338,
+                "fips": "48201"
+            },
+            {
+                "CountyId": 1395,
+                "UtilityId": null,
+                "CountyName": "Haskell",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3056,
+                "fips": "48207"
+            },
+            {
+                "CountyId": 1396,
+                "UtilityId": null,
+                "CountyName": "Henderson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 44717,
+                "fips": "48213"
+            },
+            {
+                "CountyId": 1397,
+                "UtilityId": null,
+                "CountyName": "Hidalgo",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 26,
+                "CustomerCount": 316845,
+                "fips": "48215"
+            },
+            {
+                "CountyId": 1398,
+                "UtilityId": null,
+                "CountyName": "Hill",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 21513,
+                "fips": "48217"
+            },
+            {
+                "CountyId": 1399,
+                "UtilityId": null,
+                "CountyName": "Hood",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 13497,
+                "fips": "48221"
+            },
+            {
+                "CountyId": 1400,
+                "UtilityId": null,
+                "CountyName": "Hopkins",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 26388,
+                "fips": "48223"
+            },
+            {
+                "CountyId": 1401,
+                "UtilityId": null,
+                "CountyName": "Houston",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 15522,
+                "fips": "48225"
+            },
+            {
+                "CountyId": 1402,
+                "UtilityId": null,
+                "CountyName": "Howard",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 19824,
+                "fips": "48227"
+            },
+            {
+                "CountyId": 1403,
+                "UtilityId": null,
+                "CountyName": "Hunt",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 37827,
+                "fips": "48231"
+            },
+            {
+                "CountyId": 1404,
+                "UtilityId": null,
+                "CountyName": "Irion",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 2,
+                "CustomerCount": 3099,
+                "fips": "48235"
+            },
+            {
+                "CountyId": 1405,
+                "UtilityId": null,
+                "CountyName": "Jack",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3930,
+                "fips": "48237"
+            },
+            {
+                "CountyId": 1406,
+                "UtilityId": null,
+                "CountyName": "Jackson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4693,
+                "fips": "48239"
+            },
+            {
+                "CountyId": 1407,
+                "UtilityId": null,
+                "CountyName": "Jasper",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 69,
+                "fips": "48241"
+            },
+            {
+                "CountyId": 1408,
+                "UtilityId": null,
+                "CountyName": "Jeff Davis",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2302,
+                "fips": "48243"
+            },
+            {
+                "CountyId": 1409,
+                "UtilityId": null,
+                "CountyName": "Jim Hogg",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3400,
+                "fips": "48247"
+            },
+            {
+                "CountyId": 1410,
+                "UtilityId": null,
+                "CountyName": "Jim Wells",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 35439,
+                "fips": "48249"
+            },
+            {
+                "CountyId": 1411,
+                "UtilityId": null,
+                "CountyName": "Johnson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 54205,
+                "fips": "48251"
+            },
+            {
+                "CountyId": 1412,
+                "UtilityId": null,
+                "CountyName": "Jones",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 10,
+                "CustomerCount": 10052,
+                "fips": "48253"
+            },
+            {
+                "CountyId": 1413,
+                "UtilityId": null,
+                "CountyName": "Karnes",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6120,
+                "fips": "48255"
+            },
+            {
+                "CountyId": 1414,
+                "UtilityId": null,
+                "CountyName": "Kaufman",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 51274,
+                "fips": "48257"
+            },
+            {
+                "CountyId": 1415,
+                "UtilityId": null,
+                "CountyName": "Kenedy",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1231,
+                "fips": "48261"
+            },
+            {
+                "CountyId": 1416,
+                "UtilityId": null,
+                "CountyName": "Kent",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 399,
+                "fips": "48263"
+            },
+            {
+                "CountyId": 1417,
+                "UtilityId": null,
+                "CountyName": "Kimble",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5576,
+                "fips": "48267"
+            },
+            {
+                "CountyId": 1418,
+                "UtilityId": null,
+                "CountyName": "Kinney",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1185,
+                "fips": "48271"
+            },
+            {
+                "CountyId": 1419,
+                "UtilityId": null,
+                "CountyName": "Kleberg",
+                "CountyState": null,
+                "CountyStatus": "#7E8D24",
+                "OutageCount": 1340,
+                "CustomerCount": 17244,
+                "fips": "48273"
+            },
+            {
+                "CountyId": 1420,
+                "UtilityId": null,
+                "CountyName": "Knox",
+                "CountyState": null,
+                "CountyStatus": "#9C9C06",
+                "OutageCount": 206,
+                "CustomerCount": 2135,
+                "fips": "48275"
+            },
+            {
+                "CountyId": 1421,
+                "UtilityId": null,
+                "CountyName": "La Salle",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 5347,
+                "fips": "48283"
+            },
+            {
+                "CountyId": 1422,
+                "UtilityId": null,
+                "CountyName": "Lamar",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 19430,
+                "fips": "48277"
+            },
+            {
+                "CountyId": 1423,
+                "UtilityId": null,
+                "CountyName": "Lampasas",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4496,
+                "fips": "48281"
+            },
+            {
+                "CountyId": 1424,
+                "UtilityId": null,
+                "CountyName": "Lee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 13605,
+                "fips": "48287"
+            },
+            {
+                "CountyId": 1425,
+                "UtilityId": null,
+                "CountyName": "Leon",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 15856,
+                "fips": "48289"
+            },
+            {
+                "CountyId": 1426,
+                "UtilityId": null,
+                "CountyName": "Limestone",
+                "CountyState": null,
+                "CountyStatus": "#05519D",
+                "OutageCount": 59,
+                "CustomerCount": 18908,
+                "fips": "48293"
+            },
+            {
+                "CountyId": 1427,
+                "UtilityId": null,
+                "CountyName": "Live Oak",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9750,
+                "fips": "48297"
+            },
+            {
+                "CountyId": 1428,
+                "UtilityId": null,
+                "CountyName": "Loving",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 580,
+                "fips": "48301"
+            },
+            {
+                "CountyId": 1429,
+                "UtilityId": null,
+                "CountyName": "Lynn",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6478,
+                "fips": "48305"
+            },
+            {
+                "CountyId": 1430,
+                "UtilityId": null,
+                "CountyName": "Martin",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8060,
+                "fips": "48317"
+            },
+            {
+                "CountyId": 1431,
+                "UtilityId": null,
+                "CountyName": "Matagorda",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 16293,
+                "fips": "48321"
+            },
+            {
+                "CountyId": 1432,
+                "UtilityId": null,
+                "CountyName": "Maverick",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 21036,
+                "fips": "48323"
+            },
+            {
+                "CountyId": 1433,
+                "UtilityId": null,
+                "CountyName": "Mcculloch",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 1,
+                "CustomerCount": 3187,
+                "fips": "48307"
+            },
+            {
+                "CountyId": 1434,
+                "UtilityId": null,
+                "CountyName": "Mclennan",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 21,
+                "CustomerCount": 121026,
+                "fips": "48309"
+            },
+            {
+                "CountyId": 1435,
+                "UtilityId": null,
+                "CountyName": "Mcmullen",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2866,
+                "fips": "48311"
+            },
+            {
+                "CountyId": 1436,
+                "UtilityId": null,
+                "CountyName": "Medina",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 25152,
+                "fips": "48325"
+            },
+            {
+                "CountyId": 1437,
+                "UtilityId": null,
+                "CountyName": "Menard",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3255,
+                "fips": "48327"
+            },
+            {
+                "CountyId": 1438,
+                "UtilityId": null,
+                "CountyName": "Midland",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 94130,
+                "fips": "48329"
+            },
+            {
+                "CountyId": 1439,
+                "UtilityId": null,
+                "CountyName": "Milam",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 13428,
+                "fips": "48331"
+            },
+            {
+                "CountyId": 1440,
+                "UtilityId": null,
+                "CountyName": "Mills",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1265,
+                "fips": "48333"
+            },
+            {
+                "CountyId": 1441,
+                "UtilityId": null,
+                "CountyName": "Mitchell",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6036,
+                "fips": "48335"
+            },
+            {
+                "CountyId": 1442,
+                "UtilityId": null,
+                "CountyName": "Montague",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12399,
+                "fips": "48337"
+            },
+            {
+                "CountyId": 1443,
+                "UtilityId": null,
+                "CountyName": "Montgomery",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 17,
+                "CustomerCount": 293094,
+                "fips": "48339"
+            },
+            {
+                "CountyId": 1444,
+                "UtilityId": null,
+                "CountyName": "Motley",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 829,
+                "fips": "48345"
+            },
+            {
+                "CountyId": 1445,
+                "UtilityId": null,
+                "CountyName": "Nacogdoches",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 25703,
+                "fips": "48347"
+            },
+            {
+                "CountyId": 1446,
+                "UtilityId": null,
+                "CountyName": "Navarro",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 20012,
+                "fips": "48349"
+            },
+            {
+                "CountyId": 1447,
+                "UtilityId": null,
+                "CountyName": "Nolan",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12559,
+                "fips": "48353"
+            },
+            {
+                "CountyId": 1448,
+                "UtilityId": null,
+                "CountyName": "Nueces",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 76,
+                "CustomerCount": 158960,
+                "fips": "48355"
+            },
+            {
+                "CountyId": 1449,
+                "UtilityId": null,
+                "CountyName": "Palo Pinto",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 19180,
+                "fips": "48363"
+            },
+            {
+                "CountyId": 1450,
+                "UtilityId": null,
+                "CountyName": "Parker",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 24481,
+                "fips": "48367"
+            },
+            {
+                "CountyId": 1451,
+                "UtilityId": null,
+                "CountyName": "Pecos",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 2,
+                "CustomerCount": 6293,
+                "fips": "48371"
+            },
+            {
+                "CountyId": 1452,
+                "UtilityId": null,
+                "CountyName": "Polk",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 25531,
+                "fips": "48373"
+            },
+            {
+                "CountyId": 1453,
+                "UtilityId": null,
+                "CountyName": "Presidio",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4393,
+                "fips": "48377"
+            },
+            {
+                "CountyId": 1454,
+                "UtilityId": null,
+                "CountyName": "Rains",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11106,
+                "fips": "48379"
+            },
+            {
+                "CountyId": 1455,
+                "UtilityId": null,
+                "CountyName": "Reagan",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 7184,
+                "fips": "48383"
+            },
+            {
+                "CountyId": 1456,
+                "UtilityId": null,
+                "CountyName": "Real",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4002,
+                "fips": "48385"
+            },
+            {
+                "CountyId": 1457,
+                "UtilityId": null,
+                "CountyName": "Red River",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5308,
+                "fips": "48387"
+            },
+            {
+                "CountyId": 1458,
+                "UtilityId": null,
+                "CountyName": "Reeves",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7697,
+                "fips": "48389"
+            },
+            {
+                "CountyId": 1459,
+                "UtilityId": null,
+                "CountyName": "Refugio",
+                "CountyState": null,
+                "CountyStatus": "#0C5596",
+                "OutageCount": 38,
+                "CustomerCount": 4952,
+                "fips": "48391"
+            },
+            {
+                "CountyId": 1460,
+                "UtilityId": null,
+                "CountyName": "Robertson",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 14,
+                "CustomerCount": 10343,
+                "fips": "48395"
+            },
+            {
+                "CountyId": 1461,
+                "UtilityId": null,
+                "CountyName": "Rockwall",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 50484,
+                "fips": "48397"
+            },
+            {
+                "CountyId": 1462,
+                "UtilityId": null,
+                "CountyName": "Runnels",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4903,
+                "fips": "48399"
+            },
+            {
+                "CountyId": 1463,
+                "UtilityId": null,
+                "CountyName": "Rusk",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 22382,
+                "fips": "48401"
+            },
+            {
+                "CountyId": 1464,
+                "UtilityId": null,
+                "CountyName": "San Augustine",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4,
+                "fips": "48405"
+            },
+            {
+                "CountyId": 1465,
+                "UtilityId": null,
+                "CountyName": "San Patricio",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 34237,
+                "fips": "48409"
+            },
+            {
+                "CountyId": 1466,
+                "UtilityId": null,
+                "CountyName": "Schleicher",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3872,
+                "fips": "48413"
+            },
+            {
+                "CountyId": 1467,
+                "UtilityId": null,
+                "CountyName": "Scurry",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7866,
+                "fips": "48415"
+            },
+            {
+                "CountyId": 1468,
+                "UtilityId": null,
+                "CountyName": "Shackelford",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4522,
+                "fips": "48417"
+            },
+            {
+                "CountyId": 1469,
+                "UtilityId": null,
+                "CountyName": "Smith",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 24,
+                "CustomerCount": 122120,
+                "fips": "48423"
+            },
+            {
+                "CountyId": 1470,
+                "UtilityId": null,
+                "CountyName": "Somervell",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4654,
+                "fips": "48425"
+            },
+            {
+                "CountyId": 1471,
+                "UtilityId": null,
+                "CountyName": "Starr",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 26275,
+                "fips": "48427"
+            },
+            {
+                "CountyId": 1472,
+                "UtilityId": null,
+                "CountyName": "Stephens",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 8769,
+                "fips": "48429"
+            },
+            {
+                "CountyId": 1473,
+                "UtilityId": null,
+                "CountyName": "Sterling",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 1,
+                "CustomerCount": 1975,
+                "fips": "48431"
+            },
+            {
+                "CountyId": 1474,
+                "UtilityId": null,
+                "CountyName": "Stonewall",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 888,
+                "fips": "48433"
+            },
+            {
+                "CountyId": 1475,
+                "UtilityId": null,
+                "CountyName": "Sutton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4367,
+                "fips": "48435"
+            },
+            {
+                "CountyId": 1476,
+                "UtilityId": null,
+                "CountyName": "Tarrant",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 24,
+                "CustomerCount": 841812,
+                "fips": "48439"
+            },
+            {
+                "CountyId": 1477,
+                "UtilityId": null,
+                "CountyName": "Taylor",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 9,
+                "CustomerCount": 105059,
+                "fips": "48441"
+            },
+            {
+                "CountyId": 1478,
+                "UtilityId": null,
+                "CountyName": "Terry",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5541,
+                "fips": "48445"
+            },
+            {
+                "CountyId": 1479,
+                "UtilityId": null,
+                "CountyName": "Throckmorton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1017,
+                "fips": "48447"
+            },
+            {
+                "CountyId": 1480,
+                "UtilityId": null,
+                "CountyName": "Tom Green",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 8,
+                "CustomerCount": 61078,
+                "fips": "48451"
+            },
+            {
+                "CountyId": 1481,
+                "UtilityId": null,
+                "CountyName": "Travis",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 11,
+                "CustomerCount": 638035,
+                "fips": "48453"
+            },
+            {
+                "CountyId": 1482,
+                "UtilityId": null,
+                "CountyName": "Trinity",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 10777,
+                "fips": "48455"
+            },
+            {
+                "CountyId": 1483,
+                "UtilityId": null,
+                "CountyName": "Tyler",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 18,
+                "CustomerCount": 13108,
+                "fips": "48457"
+            },
+            {
+                "CountyId": 1484,
+                "UtilityId": null,
+                "CountyName": "Upton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4284,
+                "fips": "48461"
+            },
+            {
+                "CountyId": 1485,
+                "UtilityId": null,
+                "CountyName": "Uvalde",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 16220,
+                "fips": "48463"
+            },
+            {
+                "CountyId": 1486,
+                "UtilityId": null,
+                "CountyName": "Val Verde",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 9,
+                "CustomerCount": 19681,
+                "fips": "48465"
+            },
+            {
+                "CountyId": 1487,
+                "UtilityId": null,
+                "CountyName": "Van Zandt",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 31331,
+                "fips": "48467"
+            },
+            {
+                "CountyId": 1488,
+                "UtilityId": null,
+                "CountyName": "Victoria",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 5,
+                "CustomerCount": 30857,
+                "fips": "48469"
+            },
+            {
+                "CountyId": 1489,
+                "UtilityId": null,
+                "CountyName": "Ward",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 9,
+                "CustomerCount": 8289,
+                "fips": "48475"
+            },
+            {
+                "CountyId": 1490,
+                "UtilityId": null,
+                "CountyName": "Webb",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 12,
+                "CustomerCount": 96719,
+                "fips": "48479"
+            },
+            {
+                "CountyId": 1491,
+                "UtilityId": null,
+                "CountyName": "Wharton",
+                "CountyState": null,
+                "CountyStatus": "#03509F",
+                "OutageCount": 42,
+                "CustomerCount": 22971,
+                "fips": "48481"
+            },
+            {
+                "CountyId": 1492,
+                "UtilityId": null,
+                "CountyName": "Wichita",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 61274,
+                "fips": "48485"
+            },
+            {
+                "CountyId": 1493,
+                "UtilityId": null,
+                "CountyName": "Wilbarger",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7905,
+                "fips": "48487"
+            },
+            {
+                "CountyId": 1494,
+                "UtilityId": null,
+                "CountyName": "Willacy",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8126,
+                "fips": "48489"
+            },
+            {
+                "CountyId": 1495,
+                "UtilityId": null,
+                "CountyName": "Williamson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 21,
+                "CustomerCount": 253144,
+                "fips": "48491"
+            },
+            {
+                "CountyId": 1496,
+                "UtilityId": null,
+                "CountyName": "Wilson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12849,
+                "fips": "48493"
+            },
+            {
+                "CountyId": 1497,
+                "UtilityId": null,
+                "CountyName": "Winkler",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4267,
+                "fips": "48495"
+            },
+            {
+                "CountyId": 1498,
+                "UtilityId": null,
+                "CountyName": "Wise",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 32766,
+                "fips": "48497"
+            },
+            {
+                "CountyId": 1499,
+                "UtilityId": null,
+                "CountyName": "Wood",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 31219,
+                "fips": "48499"
+            },
+            {
+                "CountyId": 1500,
+                "UtilityId": null,
+                "CountyName": "Young",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8399,
+                "fips": "48503"
+            },
+            {
+                "CountyId": 1501,
+                "UtilityId": null,
+                "CountyName": "Zapata",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7139,
+                "fips": "48505"
+            },
+            {
+                "CountyId": 1502,
+                "UtilityId": null,
+                "CountyName": "Zavala",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 4,
+                "CustomerCount": 6116,
+                "fips": "48507"
+            },
+            {
+                "CountyId": 1510,
+                "UtilityId": null,
+                "CountyName": "Dallam",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5557,
+                "fips": "48111"
+            },
+            {
+                "CountyId": 1511,
+                "UtilityId": null,
+                "CountyName": "Gray",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 12376,
+                "fips": "48179"
+            },
+            {
+                "CountyId": 1512,
+                "UtilityId": null,
+                "CountyName": "Potter",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 55290,
+                "fips": "48375"
+            },
+            {
+                "CountyId": 1513,
+                "UtilityId": null,
+                "CountyName": "Randall",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 69184,
+                "fips": "48381"
+            },
+            {
+                "CountyId": 1514,
+                "UtilityId": null,
+                "CountyName": "Unknown",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 435689
+            },
+            {
+                "CountyId": 1527,
+                "UtilityId": null,
+                "CountyName": "Grimes",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 17,
+                "CustomerCount": 25824,
+                "fips": "48185"
+            },
+            {
+                "CountyId": 1528,
+                "UtilityId": null,
+                "CountyName": "Hockley",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11444,
+                "fips": "48219"
+            },
+            {
+                "CountyId": 1530,
+                "UtilityId": null,
+                "CountyName": "Liberty",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 15,
+                "CustomerCount": 41099,
+                "fips": "48291"
+            },
+            {
+                "CountyId": 1573,
+                "UtilityId": null,
+                "CountyName": "Hale",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 15665,
+                "fips": "48189"
+            },
+            {
+                "CountyId": 1580,
+                "UtilityId": null,
+                "CountyName": "Bowie",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 37,
+                "CustomerCount": 48842,
+                "fips": "48037"
+            },
+            {
+                "CountyId": 1581,
+                "UtilityId": null,
+                "CountyName": "Camp",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8127,
+                "fips": "48063"
+            },
+            {
+                "CountyId": 1582,
+                "UtilityId": null,
+                "CountyName": "Cass",
+                "CountyState": null,
+                "CountyStatus": "#04519E",
+                "OutageCount": 56,
+                "CustomerCount": 22538,
+                "fips": "48067"
+            },
+            {
+                "CountyId": 1583,
+                "UtilityId": null,
+                "CountyName": "Collingsworth",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1582,
+                "fips": "48087"
+            },
+            {
+                "CountyId": 1584,
+                "UtilityId": null,
+                "CountyName": "Donley",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1871,
+                "fips": "48129"
+            },
+            {
+                "CountyId": 1585,
+                "UtilityId": null,
+                "CountyName": "Gregg",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 76931,
+                "fips": "48183"
+            },
+            {
+                "CountyId": 1586,
+                "UtilityId": null,
+                "CountyName": "Harrison",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 29873,
+                "fips": "48203"
+            },
+            {
+                "CountyId": 1587,
+                "UtilityId": null,
+                "CountyName": "Morris",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8665,
+                "fips": "48343"
+            },
+            {
+                "CountyId": 1589,
+                "UtilityId": null,
+                "CountyName": "Panola",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11586,
+                "fips": "48365"
+            },
+            {
+                "CountyId": 1590,
+                "UtilityId": null,
+                "CountyName": "Shelby",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4206,
+                "fips": "48419"
+            },
+            {
+                "CountyId": 1591,
+                "UtilityId": null,
+                "CountyName": "Titus",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 16282,
+                "fips": "48449"
+            },
+            {
+                "CountyId": 1592,
+                "UtilityId": null,
+                "CountyName": "Upshur",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 24034,
+                "fips": "48459"
+            },
+            {
+                "CountyId": 1593,
+                "UtilityId": null,
+                "CountyName": "Wheeler",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3460,
+                "fips": "48483"
+            },
+            {
+                "CountyId": 1637,
+                "UtilityId": null,
+                "CountyName": "Deaf Smith",
+                "CountyState": null,
+                "CountyStatus": "#08539A",
+                "OutageCount": 62,
+                "CustomerCount": 13019,
+                "fips": "48117"
+            },
+            {
+                "CountyId": 1638,
+                "UtilityId": null,
+                "CountyName": "Waller",
+                "CountyState": null,
+                "CountyStatus": "#095399",
+                "OutageCount": 164,
+                "CustomerCount": 29458,
+                "fips": "48473"
+            },
+            {
+                "CountyId": 1639,
+                "UtilityId": null,
+                "CountyName": "Madison",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9286,
+                "fips": "48313"
+            },
+            {
+                "CountyId": 1653,
+                "UtilityId": null,
+                "CountyName": "Lamb",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6270,
+                "fips": "48279"
+            },
+            {
+                "CountyId": 1657,
+                "UtilityId": null,
+                "CountyName": "Hutchinson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12897,
+                "fips": "48233"
+            },
+            {
+                "CountyId": 1667,
+                "UtilityId": null,
+                "CountyName": "Crosby",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2895,
+                "fips": "48107"
+            },
+            {
+                "CountyId": 1668,
+                "UtilityId": null,
+                "CountyName": "Floyd",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1915,
+                "fips": "48153"
+            },
+            {
+                "CountyId": 1671,
+                "UtilityId": null,
+                "CountyName": "Hardin",
+                "CountyState": null,
+                "CountyStatus": "#07529B",
+                "OutageCount": 121,
+                "CustomerCount": 29488,
+                "fips": "48199"
+            },
+            {
+                "CountyId": 1676,
+                "UtilityId": null,
+                "CountyName": "Carson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4452,
+                "fips": "48065"
+            },
+            {
+                "CountyId": 1679,
+                "UtilityId": null,
+                "CountyName": "Walker",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 36156,
+                "fips": "48471"
+            },
+            {
+                "CountyId": 1701,
+                "UtilityId": null,
+                "CountyName": "San Jacinto",
+                "CountyState": null,
+                "CountyStatus": "#03509F",
+                "OutageCount": 29,
+                "CustomerCount": 18018,
+                "fips": "48407"
+            },
+            {
+                "CountyId": 1715,
+                "UtilityId": null,
+                "CountyName": "Austin",
+                "CountyState": null,
+                "CountyStatus": "#03519F",
+                "OutageCount": 35,
+                "CustomerCount": 17426,
+                "fips": "48015"
+            },
+            {
+                "CountyId": 1726,
+                "UtilityId": null,
+                "CountyName": "Hartley",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4061,
+                "fips": "48205"
+            },
+            {
+                "CountyId": 1734,
+                "UtilityId": null,
+                "CountyName": "Sherman",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3037,
+                "fips": "48421"
+            },
+            {
+                "CountyId": 1762,
+                "UtilityId": null,
+                "CountyName": "Hansford",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5148,
+                "fips": "48195"
+            },
+            {
+                "CountyId": 1765,
+                "UtilityId": null,
+                "CountyName": "Yoakum",
+                "CountyState": null,
+                "CountyStatus": "#B16E00",
+                "OutageCount": 1007,
+                "CustomerCount": 4659,
+                "fips": "48501"
+            },
+            {
+                "CountyId": 1771,
+                "UtilityId": null,
+                "CountyName": "Garza",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3158,
+                "fips": "48169"
+            },
+            {
+                "CountyId": 1800,
+                "UtilityId": null,
+                "CountyName": "Cochran",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1708,
+                "fips": "48079"
+            },
+            {
+                "CountyId": 1801,
+                "UtilityId": null,
+                "CountyName": "Ochiltree",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9102,
+                "fips": "48357"
+            },
+            {
+                "CountyId": 1804,
+                "UtilityId": null,
+                "CountyName": "Lavaca",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 12056,
+                "fips": "48285"
+            },
+            {
+                "CountyId": 1805,
+                "UtilityId": null,
+                "CountyName": "Moore",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 11504,
+                "fips": "48341"
+            },
+            {
+                "CountyId": 1808,
+                "UtilityId": null,
+                "CountyName": "Parmer",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7075,
+                "fips": "48369"
+            },
+            {
+                "CountyId": 1822,
+                "UtilityId": null,
+                "CountyName": "Swisher",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5018,
+                "fips": "48437"
+            },
+            {
+                "CountyId": 1830,
+                "UtilityId": null,
+                "CountyName": "Bexar",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 14,
+                "CustomerCount": 862333,
+                "fips": "48029"
+            },
+            {
+                "CountyId": 1854,
+                "UtilityId": null,
+                "CountyName": "San Saba",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3114,
+                "fips": "48411"
+            },
+            {
+                "CountyId": 1858,
+                "UtilityId": null,
+                "CountyName": "Lipscomb",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4163,
+                "fips": "48295"
+            },
+            {
+                "CountyId": 1861,
+                "UtilityId": null,
+                "CountyName": "Oldham",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1455,
+                "fips": "48359"
+            },
+            {
+                "CountyId": 1937,
+                "UtilityId": null,
+                "CountyName": "Roberts",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 2,
+                "CustomerCount": 1592,
+                "fips": "48393"
+            },
+            {
+                "CountyId": 1944,
+                "UtilityId": null,
+                "CountyName": "Fayette",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3631,
+                "fips": "48149"
+            },
+            {
+                "CountyId": 1955,
+                "UtilityId": null,
+                "CountyName": "Lubbock",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 107988,
+                "fips": "48303"
+            },
+            {
+                "CountyId": 1959,
+                "UtilityId": null,
+                "CountyName": "Bailey",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2575,
+                "fips": "48017"
+            },
+            {
+                "CountyId": 1971,
+                "UtilityId": null,
+                "CountyName": "Hamilton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3360,
+                "fips": "48193"
+            },
+            {
+                "CountyId": 1972,
+                "UtilityId": null,
+                "CountyName": "Hemphill",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3811,
+                "fips": "48211"
+            },
+            {
+                "CountyId": 2057,
+                "UtilityId": null,
+                "CountyName": "Jefferson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 117529,
+                "fips": "48245"
+            },
+            {
+                "CountyId": 2058,
+                "UtilityId": null,
+                "CountyName": "Orange",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 41142,
+                "fips": "48361"
+            },
+            {
+                "CountyId": 2092,
+                "UtilityId": null,
+                "CountyName": "Newton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 22,
+                "fips": "48351"
+            },
+            {
+                "CountyId": 2095,
+                "UtilityId": null,
+                "CountyName": "Armstrong",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1263,
+                "fips": "48011"
+            },
+            {
+                "CountyId": 2145,
+                "UtilityId": null,
+                "CountyName": "Burleson",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 10,
+                "CustomerCount": 17121,
+                "fips": "48051"
+            },
+            {
+                "CountyId": 2239,
+                "UtilityId": null,
+                "CountyName": "Washington",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 22070,
+                "fips": "48477"
+            },
+            {
+                "CountyId": 2314,
+                "UtilityId": null,
+                "CountyName": "Castro",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7596,
+                "fips": "48069"
+            },
+            {
+                "CountyId": 2415,
+                "UtilityId": null,
+                "CountyName": "Mason",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3669,
+                "fips": "48319"
+            },
+            {
+                "CountyId": 2445,
+                "UtilityId": null,
+                "CountyName": "Comal",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 89782,
+                "fips": "48091"
+            },
+            {
+                "CountyId": 2523,
+                "UtilityId": null,
+                "CountyName": "Brazos",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 14,
+                "CustomerCount": 50856,
+                "fips": "48041"
+            },
+            {
+                "CountyId": 2525,
+                "UtilityId": null,
+                "CountyName": "Hays",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 96031,
+                "fips": "48209"
+            },
+            {
+                "CountyId": 2548,
+                "UtilityId": null,
+                "CountyName": "Kendall",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 17568,
+                "fips": "48259"
+            },
+            {
+                "CountyId": 2554,
+                "UtilityId": null,
+                "CountyName": "Llano",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 15544,
+                "fips": "48299"
+            },
+            {
+                "CountyId": 2555,
+                "UtilityId": null,
+                "CountyName": "Blanco",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10321,
+                "fips": "48031"
+            },
+            {
+                "CountyId": 2588,
+                "UtilityId": null,
+                "CountyName": "Gillespie",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 15709,
+                "fips": "48171"
+            },
+            {
+                "CountyId": 2589,
+                "UtilityId": null,
+                "CountyName": "Kerr",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 34171,
+                "fips": "48265"
+            },
+            {
+                "CountyId": 3167,
+                "UtilityId": null,
+                "CountyName": "Bandera",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 16193,
+                "fips": "48019"
+            },
+            {
+                "CountyId": 3168,
+                "UtilityId": null,
+                "CountyName": "Marion",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8460,
+                "fips": "48315"
+            },
+            {
+                "CountyId": 3613,
+                "UtilityId": null,
+                "CountyName": "1",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 13
+            },
+            {
+                "CountyId": 3626,
+                "UtilityId": null,
+                "CountyName": "2",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 26
+            },
+            {
+                "CountyId": 3666,
+                "UtilityId": null,
+                "CountyName": "6",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 157
+            },
+            {
+                "CountyId": 3704,
+                "UtilityId": null,
+                "CountyName": "Terrell",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 678,
+                "fips": "48443"
+            },
+            {
+                "CountyId": 3720,
+                "UtilityId": null,
+                "CountyName": "King",
+                "CountyState": null,
+                "CountyStatus": "#000000",
+                "OutageCount": 0,
+                "CustomerCount": 0,
+                "fips": "48269"
+            },
+            {
+                "CountyId": 4169,
+                "UtilityId": null,
+                "CountyName": "El Paso",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 50359,
+                "fips": "48141"
+            },
+            {
+                "CountyId": 4176,
+                "UtilityId": null,
+                "CountyName": "Hudspeth",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1303,
+                "fips": "48229"
+            },
+            {
+                "CountyId": 4212,
+                "UtilityId": null,
+                "CountyName": "11",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2
+            },
+            {
+                "CountyId": 4219,
+                "UtilityId": null,
+                "CountyName": "10",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1
+            },
+            {
+                "CountyId": 4274,
+                "UtilityId": null,
+                "CountyName": "4",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3
+            },
+            {
+                "CountyId": 4277,
+                "UtilityId": null,
+                "CountyName": "9",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5
+            },
+            {
+                "CountyId": 4282,
+                "UtilityId": null,
+                "CountyName": "12",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2
+            },
+            {
+                "CountyId": 5059,
+                "UtilityId": null,
+                "CountyName": "Beaver",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4
+            },
+            {
+                "CountyId": 5269,
+                "UtilityId": null,
+                "CountyName": "Doña Ana",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1
+            },
+            {
+                "CountyId": 5291,
+                "UtilityId": null,
+                "CountyName": "119",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 431
+            },
+            {
+                "CountyId": 5292,
+                "UtilityId": null,
+                "CountyName": "164",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 725
+            },
+            {
+                "CountyId": 5293,
+                "UtilityId": null,
+                "CountyName": "186",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 586
+            },
+            {
+                "CountyId": 5294,
+                "UtilityId": null,
+                "CountyName": "192",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1263
+            },
+            {
+                "CountyId": 5295,
+                "UtilityId": null,
+                "CountyName": "207",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2235
+            },
+            {
+                "CountyId": 5296,
+                "UtilityId": null,
+                "CountyName": "218",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1356
+            },
+            {
+                "CountyId": 5297,
+                "UtilityId": null,
+                "CountyName": "222",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9
+            },
+            {
+                "CountyId": 5298,
+                "UtilityId": null,
+                "CountyName": "226",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 210
+            },
+            {
+                "CountyId": 5299,
+                "UtilityId": null,
+                "CountyName": "231",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 88
+            },
+            {
+                "CountyId": 5300,
+                "UtilityId": null,
+                "CountyName": "233",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 271
+            },
+            {
+                "CountyId": 5301,
+                "UtilityId": null,
+                "CountyName": "48",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4
+            },
+            {
+                "CountyId": 5302,
+                "UtilityId": null,
+                "CountyName": "53",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2665
+            },
+            {
+                "CountyId": 5303,
+                "UtilityId": null,
+                "CountyName": "70",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7
+            },
+            {
+                "CountyId": 5326,
+                "UtilityId": null,
+                "CountyName": "All",
+                "CountyState": null,
+                "CountyStatus": "#000000",
+                "OutageCount": 0,
+                "CustomerCount": 0
+            },
+            {
+                "CountyId": 5480,
+                "UtilityId": null,
+                "CountyName": "ZoquitlÃ¡n",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 296
+            },
+            {
+                "CountyId": 5481,
+                "UtilityId": null,
+                "CountyName": "Ajalpan",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1252
+            },
+            {
+                "CountyId": 5485,
+                "UtilityId": null,
+                "CountyName": "Atexcal",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 337
+            },
+            {
+                "CountyId": 5555,
+                "UtilityId": null,
+                "CountyName": "Juan N. MÃ©ndez",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 337
+            },
+            {
+                "CountyId": 5561,
+                "UtilityId": null,
+                "CountyName": "Santa MarÃ­a Tecomavaca",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8
+            },
+            {
+                "CountyId": 5562,
+                "UtilityId": null,
+                "CountyName": "TeotitlÃ¡n de Flores MagÃ³n",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8
+            },
+            {
+                "CountyId": 5564,
+                "UtilityId": null,
+                "CountyName": "Santa MarÃ­a IxcatlÃ¡n",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 26
+            }
+        ]
+    },
+    "Louisiana": {
+        "WebCountyRecord": [
+            {
+                "CountyId": 1557,
+                "UtilityId": null,
+                "CountyName": "Tangipahoa",
+                "CountyState": null,
+                "CountyStatus": "#A41700",
+                "OutageCount": 40049,
+                "CustomerCount": 69107,
+                "fips": "22105"
+            },
+            {
+                "CountyId": 1609,
+                "UtilityId": null,
+                "CountyName": "Beauregard",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 15,
+                "CustomerCount": 22275,
+                "fips": "22011"
+            },
+            {
+                "CountyId": 1610,
+                "UtilityId": null,
+                "CountyName": "Bienville",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11969,
+                "fips": "22013"
+            },
+            {
+                "CountyId": 1611,
+                "UtilityId": null,
+                "CountyName": "Bossier",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 5,
+                "CustomerCount": 61366,
+                "fips": "22015"
+            },
+            {
+                "CountyId": 1612,
+                "UtilityId": null,
+                "CountyName": "Caddo",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 22,
+                "CustomerCount": 120052,
+                "fips": "22017"
+            },
+            {
+                "CountyId": 1613,
+                "UtilityId": null,
+                "CountyName": "De Soto",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 14861,
+                "fips": "22031"
+            },
+            {
+                "CountyId": 1616,
+                "UtilityId": null,
+                "CountyName": "Grant",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 5,
+                "CustomerCount": 9361,
+                "fips": "22043"
+            },
+            {
+                "CountyId": 1621,
+                "UtilityId": null,
+                "CountyName": "Natchitoches",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 13317,
+                "fips": "22069"
+            },
+            {
+                "CountyId": 1622,
+                "UtilityId": null,
+                "CountyName": "Rapides",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 44191,
+                "fips": "22079"
+            },
+            {
+                "CountyId": 1623,
+                "UtilityId": null,
+                "CountyName": "Red River",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 5101,
+                "fips": "22081"
+            },
+            {
+                "CountyId": 1624,
+                "UtilityId": null,
+                "CountyName": "Sabine",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 17813,
+                "fips": "22085"
+            },
+            {
+                "CountyId": 1625,
+                "UtilityId": null,
+                "CountyName": "St. Tammany",
+                "CountyState": null,
+                "CountyStatus": "#9B9C07",
+                "OutageCount": 12655,
+                "CustomerCount": 132027,
+                "fips": "22103"
+            },
+            {
+                "CountyId": 1627,
+                "UtilityId": null,
+                "CountyName": "Vernon",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 25984,
+                "fips": "22115"
+            },
+            {
+                "CountyId": 1629,
+                "UtilityId": null,
+                "CountyName": "Webster",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 13136,
+                "fips": "22119"
+            },
+            {
+                "CountyId": 1630,
+                "UtilityId": null,
+                "CountyName": "Winn",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5260,
+                "fips": "22127"
+            },
+            {
+                "CountyId": 1643,
+                "UtilityId": null,
+                "CountyName": "Calcasieu",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 14,
+                "CustomerCount": 100209,
+                "fips": "22019"
+            },
+            {
+                "CountyId": 1651,
+                "UtilityId": null,
+                "CountyName": "Allen",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12723,
+                "fips": "22003"
+            },
+            {
+                "CountyId": 1652,
+                "UtilityId": null,
+                "CountyName": "Washington",
+                "CountyState": null,
+                "CountyStatus": "#7A8B28",
+                "OutageCount": 1864,
+                "CustomerCount": 24685,
+                "fips": "22117"
+            },
+            {
+                "CountyId": 1681,
+                "UtilityId": null,
+                "CountyName": "Evangeline",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 18343,
+                "fips": "22039"
+            },
+            {
+                "CountyId": 1995,
+                "UtilityId": null,
+                "CountyName": "Ascension",
+                "CountyState": null,
+                "CountyStatus": "#A79000",
+                "OutageCount": 7957,
+                "CustomerCount": 58282,
+                "fips": "22005"
+            },
+            {
+                "CountyId": 1996,
+                "UtilityId": null,
+                "CountyName": "Avoyelles",
+                "CountyState": null,
+                "CountyStatus": "#03509F",
+                "OutageCount": 34,
+                "CustomerCount": 21900,
+                "fips": "22009"
+            },
+            {
+                "CountyId": 1998,
+                "UtilityId": null,
+                "CountyName": "East Baton Rouge",
+                "CountyState": null,
+                "CountyStatus": "#155A8D",
+                "OutageCount": 2844,
+                "CustomerCount": 216107,
+                "fips": "22033"
+            },
+            {
+                "CountyId": 1999,
+                "UtilityId": null,
+                "CountyName": "East Feliciana",
+                "CountyState": null,
+                "CountyStatus": "#8B9417",
+                "OutageCount": 890,
+                "CustomerCount": 10375,
+                "fips": "22037"
+            },
+            {
+                "CountyId": 2001,
+                "UtilityId": null,
+                "CountyName": "Iberia",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 3,
+                "CustomerCount": 34875,
+                "fips": "22045"
+            },
+            {
+                "CountyId": 2006,
+                "UtilityId": null,
+                "CountyName": "Livingston",
+                "CountyState": null,
+                "CountyStatus": "#B43B00",
+                "OutageCount": 25379,
+                "CustomerCount": 65454,
+                "fips": "22063"
+            },
+            {
+                "CountyId": 2010,
+                "UtilityId": null,
+                "CountyName": "St. Helena",
+                "CountyState": null,
+                "CountyStatus": "#A01300",
+                "OutageCount": 4236,
+                "CustomerCount": 6964,
+                "fips": "22091"
+            },
+            {
+                "CountyId": 2012,
+                "UtilityId": null,
+                "CountyName": "West Feliciana",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 3,
+                "CustomerCount": 6353,
+                "fips": "22125"
+            },
+            {
+                "CountyId": 2060,
+                "UtilityId": null,
+                "CountyName": "Acadia",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 28577,
+                "fips": "22001"
+            },
+            {
+                "CountyId": 2061,
+                "UtilityId": null,
+                "CountyName": "Cameron",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 1,
+                "CustomerCount": 1777,
+                "fips": "22023"
+            },
+            {
+                "CountyId": 2062,
+                "UtilityId": null,
+                "CountyName": "Franklin",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7229,
+                "fips": "22041"
+            },
+            {
+                "CountyId": 2063,
+                "UtilityId": null,
+                "CountyName": "Jefferson",
+                "CountyState": null,
+                "CountyStatus": "#9F1300",
+                "OutageCount": 130044,
+                "CustomerCount": 211901,
+                "fips": "22051"
+            },
+            {
+                "CountyId": 2064,
+                "UtilityId": null,
+                "CountyName": "Lafayette",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 8,
+                "CustomerCount": 124123,
+                "fips": "22055"
+            },
+            {
+                "CountyId": 2065,
+                "UtilityId": null,
+                "CountyName": "Lafourche",
+                "CountyState": null,
+                "CountyStatus": "#580A02",
+                "OutageCount": 43326,
+                "CustomerCount": 44148,
+                "fips": "22057"
+            },
+            {
+                "CountyId": 2066,
+                "UtilityId": null,
+                "CountyName": "Orleans",
+                "CountyState": null,
+                "CountyStatus": "#B56000",
+                "OutageCount": 48313,
+                "CustomerCount": 193796,
+                "fips": "22071"
+            },
+            {
+                "CountyId": 2068,
+                "UtilityId": null,
+                "CountyName": "Plaquemines",
+                "CountyState": null,
+                "CountyStatus": "#9D1200",
+                "OutageCount": 7919,
+                "CustomerCount": 12635,
+                "fips": "22075"
+            },
+            {
+                "CountyId": 2069,
+                "UtilityId": null,
+                "CountyName": "St. Bernard",
+                "CountyState": null,
+                "CountyStatus": "#34696E",
+                "OutageCount": 665,
+                "CustomerCount": 20640,
+                "fips": "22087"
+            },
+            {
+                "CountyId": 2070,
+                "UtilityId": null,
+                "CountyName": "West Baton Rouge",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 12848,
+                "fips": "22121"
+            },
+            {
+                "CountyId": 2075,
+                "UtilityId": null,
+                "CountyName": "Lincoln",
+                "CountyState": null,
+                "CountyStatus": "#04519E",
+                "OutageCount": 47,
+                "CustomerCount": 19027,
+                "fips": "22061"
+            },
+            {
+                "CountyId": 2076,
+                "UtilityId": null,
+                "CountyName": "Ouachita",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 83894,
+                "fips": "22073"
+            },
+            {
+                "CountyId": 2077,
+                "UtilityId": null,
+                "CountyName": "Pointe Coupee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 5090,
+                "fips": "22077"
+            },
+            {
+                "CountyId": 2078,
+                "UtilityId": null,
+                "CountyName": "St. Landry",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 46835,
+                "fips": "22097"
+            },
+            {
+                "CountyId": 2080,
+                "UtilityId": null,
+                "CountyName": "St. Mary",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 18905,
+                "fips": "22101"
+            },
+            {
+                "CountyId": 2084,
+                "UtilityId": null,
+                "CountyName": "Assumption",
+                "CountyState": null,
+                "CountyStatus": "#AD2B00",
+                "OutageCount": 4941,
+                "CustomerCount": 10495,
+                "fips": "22007"
+            },
+            {
+                "CountyId": 2085,
+                "UtilityId": null,
+                "CountyName": "St. Charles",
+                "CountyState": null,
+                "CountyStatus": "#5D0B02",
+                "OutageCount": 21855,
+                "CustomerCount": 22973,
+                "fips": "22089"
+            },
+            {
+                "CountyId": 2089,
+                "UtilityId": null,
+                "CountyName": "Jefferson Davis",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 12341,
+                "fips": "22053"
+            },
+            {
+                "CountyId": 2102,
+                "UtilityId": null,
+                "CountyName": "Claiborne",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 4710,
+                "fips": "22027"
+            },
+            {
+                "CountyId": 2103,
+                "UtilityId": null,
+                "CountyName": "Madison",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 5838,
+                "fips": "22065"
+            },
+            {
+                "CountyId": 2104,
+                "UtilityId": null,
+                "CountyName": "St. John The Baptist",
+                "CountyState": null,
+                "CountyStatus": "#5B0B02",
+                "OutageCount": 19000,
+                "CustomerCount": 19755,
+                "fips": "22095"
+            },
+            {
+                "CountyId": 2105,
+                "UtilityId": null,
+                "CountyName": "Tensas",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 3,
+                "CustomerCount": 3614,
+                "fips": "22107"
+            },
+            {
+                "CountyId": 2108,
+                "UtilityId": null,
+                "CountyName": "Terrebonne",
+                "CountyState": null,
+                "CountyStatus": "#550A02",
+                "OutageCount": 27661,
+                "CustomerCount": 27745,
+                "fips": "22109"
+            },
+            {
+                "CountyId": 2113,
+                "UtilityId": null,
+                "CountyName": "East Carroll",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 3484,
+                "fips": "22035"
+            },
+            {
+                "CountyId": 2119,
+                "UtilityId": null,
+                "CountyName": "Jackson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 13532,
+                "fips": "22049"
+            },
+            {
+                "CountyId": 2120,
+                "UtilityId": null,
+                "CountyName": "Concordia",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 5138,
+                "fips": "22029"
+            },
+            {
+                "CountyId": 2121,
+                "UtilityId": null,
+                "CountyName": "Iberville",
+                "CountyState": null,
+                "CountyStatus": "#B46500",
+                "OutageCount": 2164,
+                "CustomerCount": 9084,
+                "fips": "22047"
+            },
+            {
+                "CountyId": 2122,
+                "UtilityId": null,
+                "CountyName": "St. Martin",
+                "CountyState": null,
+                "CountyStatus": "#095399",
+                "OutageCount": 137,
+                "CustomerCount": 25601,
+                "fips": "22099"
+            },
+            {
+                "CountyId": 2130,
+                "UtilityId": null,
+                "CountyName": "E. Feliciana",
+                "CountyState": null,
+                "CountyStatus": "#000000",
+                "OutageCount": 0,
+                "CustomerCount": 0
+            },
+            {
+                "CountyId": 2135,
+                "UtilityId": null,
+                "CountyName": "Caldwell",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 6,
+                "CustomerCount": 6192,
+                "fips": "22021"
+            },
+            {
+                "CountyId": 2146,
+                "UtilityId": null,
+                "CountyName": "St. James",
+                "CountyState": null,
+                "CountyStatus": "#5C0B02",
+                "OutageCount": 9493,
+                "CustomerCount": 9902,
+                "fips": "22093"
+            },
+            {
+                "CountyId": 2156,
+                "UtilityId": null,
+                "CountyName": "Vermilion",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 25,
+                "CustomerCount": 23374,
+                "fips": "22113"
+            },
+            {
+                "CountyId": 2158,
+                "UtilityId": null,
+                "CountyName": "Morehouse",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 12673,
+                "fips": "22067"
+            },
+            {
+                "CountyId": 2160,
+                "UtilityId": null,
+                "CountyName": "Union",
+                "CountyState": null,
+                "CountyStatus": "#05519D",
+                "OutageCount": 10,
+                "CustomerCount": 3511,
+                "fips": "22111"
+            },
+            {
+                "CountyId": 2171,
+                "UtilityId": null,
+                "CountyName": "West Carroll",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 1,
+                "CustomerCount": 2562,
+                "fips": "22123"
+            },
+            {
+                "CountyId": 2178,
+                "UtilityId": null,
+                "CountyName": "Richland",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 8983,
+                "fips": "22083"
+            },
+            {
+                "CountyId": 2184,
+                "UtilityId": null,
+                "CountyName": "Catahoula",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 125,
+                "fips": "22025"
+            },
+            {
+                "CountyId": 2186,
+                "UtilityId": null,
+                "CountyName": "La Salle",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5793,
+                "fips": "22059"
+            },
+            {
+                "CountyId": 2187,
+                "UtilityId": null,
+                "CountyName": "W. Feliciana",
+                "CountyState": null,
+                "CountyStatus": "#000000",
+                "OutageCount": 0,
+                "CustomerCount": 0
+            },
+            {
+                "CountyId": 3169,
+                "UtilityId": null,
+                "CountyName": "Unknown",
+                "CountyState": null,
+                "CountyStatus": "#540A02",
+                "OutageCount": 405,
+                "CustomerCount": 405
+            },
+            {
+                "CountyId": 4287,
+                "UtilityId": null,
+                "CountyName": "E. Baton Rouge",
+                "CountyState": null,
+                "CountyStatus": "#000000",
+                "OutageCount": 0,
+                "CustomerCount": 0
+            },
+            {
+                "CountyId": 4288,
+                "UtilityId": null,
+                "CountyName": "W. Baton Rouge",
+                "CountyState": null,
+                "CountyStatus": "#000000",
+                "OutageCount": 0,
+                "CustomerCount": 0
+            },
+            {
+                "CountyId": 4293,
+                "UtilityId": null,
+                "CountyName": "E. Carroll",
+                "CountyState": null,
+                "CountyStatus": "#000000",
+                "OutageCount": 0,
+                "CustomerCount": 0
+            },
+            {
+                "CountyId": 4295,
+                "UtilityId": null,
+                "CountyName": "W. Carroll",
+                "CountyState": null,
+                "CountyStatus": "#000000",
+                "OutageCount": 0,
+                "CustomerCount": 0
+            },
+            {
+                "CountyId": 5205,
+                "UtilityId": null,
+                "CountyName": "Desoto",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4993
+            },
+            {
+                "CountyId": 5206,
+                "UtilityId": null,
+                "CountyName": "Lasalle",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 78
+            },
+            {
+                "CountyId": 5477,
+                "UtilityId": null,
+                "CountyName": "Amite",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 13623
+            },
+            {
+                "CountyId": 5478,
+                "UtilityId": null,
+                "CountyName": "Wilkinson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 20
+            }
+        ]
+    },
+    "Mississippi": {
+        "WebCountyRecord": [
+            {
+                "CountyId": 1295,
+                "UtilityId": null,
+                "CountyName": "Attala",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7526,
+                "fips": "28007"
+            },
+            {
+                "CountyId": 1296,
+                "UtilityId": null,
+                "CountyName": "Clarke",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10049,
+                "fips": "28023"
+            },
+            {
+                "CountyId": 1297,
+                "UtilityId": null,
+                "CountyName": "Jasper",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11761,
+                "fips": "28061"
+            },
+            {
+                "CountyId": 1298,
+                "UtilityId": null,
+                "CountyName": "Kemper",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5789,
+                "fips": "28069"
+            },
+            {
+                "CountyId": 1299,
+                "UtilityId": null,
+                "CountyName": "Lauderdale",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 37153,
+                "fips": "28075"
+            },
+            {
+                "CountyId": 1300,
+                "UtilityId": null,
+                "CountyName": "Nas Meridian",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4
+            },
+            {
+                "CountyId": 1301,
+                "UtilityId": null,
+                "CountyName": "Neshoba",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11355,
+                "fips": "28099"
+            },
+            {
+                "CountyId": 1302,
+                "UtilityId": null,
+                "CountyName": "Newton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12539,
+                "fips": "28101"
+            },
+            {
+                "CountyId": 1303,
+                "UtilityId": null,
+                "CountyName": "Noxubee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11031,
+                "fips": "28103"
+            },
+            {
+                "CountyId": 1304,
+                "UtilityId": null,
+                "CountyName": "Oktibbeha",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10468,
+                "fips": "28105"
+            },
+            {
+                "CountyId": 1305,
+                "UtilityId": null,
+                "CountyName": "Unknown",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 2,
+                "CustomerCount": 1991
+            },
+            {
+                "CountyId": 1306,
+                "UtilityId": null,
+                "CountyName": "Wayne",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12287,
+                "fips": "28153"
+            },
+            {
+                "CountyId": 1307,
+                "UtilityId": null,
+                "CountyName": "Winston",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 7018,
+                "fips": "28159"
+            },
+            {
+                "CountyId": 2071,
+                "UtilityId": null,
+                "CountyName": "Madison",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 67,
+                "CustomerCount": 50058,
+                "fips": "28089"
+            },
+            {
+                "CountyId": 2073,
+                "UtilityId": null,
+                "CountyName": "Pike",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 27,
+                "CustomerCount": 20684,
+                "fips": "28113"
+            },
+            {
+                "CountyId": 2074,
+                "UtilityId": null,
+                "CountyName": "Rankin",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 25,
+                "CustomerCount": 73943,
+                "fips": "28121"
+            },
+            {
+                "CountyId": 2079,
+                "UtilityId": null,
+                "CountyName": "Washington",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 15929,
+                "fips": "28151"
+            },
+            {
+                "CountyId": 2081,
+                "UtilityId": null,
+                "CountyName": "Hinds",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 14,
+                "CustomerCount": 109766,
+                "fips": "28049"
+            },
+            {
+                "CountyId": 2086,
+                "UtilityId": null,
+                "CountyName": "Warren",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 21687,
+                "fips": "28149"
+            },
+            {
+                "CountyId": 2088,
+                "UtilityId": null,
+                "CountyName": "Sunflower",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 4,
+                "CustomerCount": 8747,
+                "fips": "28133"
+            },
+            {
+                "CountyId": 2090,
+                "UtilityId": null,
+                "CountyName": "Wilkinson",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 5,
+                "CustomerCount": 5917,
+                "fips": "28157"
+            },
+            {
+                "CountyId": 2091,
+                "UtilityId": null,
+                "CountyName": "Lincoln",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 18104,
+                "fips": "28085"
+            },
+            {
+                "CountyId": 2093,
+                "UtilityId": null,
+                "CountyName": "Amite",
+                "CountyState": null,
+                "CountyStatus": "#0A5498",
+                "OutageCount": 74,
+                "CustomerCount": 11997,
+                "fips": "28005"
+            },
+            {
+                "CountyId": 2094,
+                "UtilityId": null,
+                "CountyName": "Grenada",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 11420,
+                "fips": "28043"
+            },
+            {
+                "CountyId": 2115,
+                "UtilityId": null,
+                "CountyName": "Bolivar",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 13463,
+                "fips": "28011"
+            },
+            {
+                "CountyId": 2123,
+                "UtilityId": null,
+                "CountyName": "Adams",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 17109,
+                "fips": "28001"
+            },
+            {
+                "CountyId": 2131,
+                "UtilityId": null,
+                "CountyName": "Desoto",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 57322,
+                "fips": "28033"
+            },
+            {
+                "CountyId": 2132,
+                "UtilityId": null,
+                "CountyName": "Holmes",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4876,
+                "fips": "28051"
+            },
+            {
+                "CountyId": 2133,
+                "UtilityId": null,
+                "CountyName": "Montgomery",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 3720,
+                "fips": "28097"
+            },
+            {
+                "CountyId": 2137,
+                "UtilityId": null,
+                "CountyName": "Sharkey",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 1,
+                "CustomerCount": 1966,
+                "fips": "28125"
+            },
+            {
+                "CountyId": 2142,
+                "UtilityId": null,
+                "CountyName": "Tate",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 13533,
+                "fips": "28137"
+            },
+            {
+                "CountyId": 2143,
+                "UtilityId": null,
+                "CountyName": "Franklin",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 6,
+                "CustomerCount": 8575,
+                "fips": "28037"
+            },
+            {
+                "CountyId": 2144,
+                "UtilityId": null,
+                "CountyName": "Claiborne",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 5285,
+                "fips": "28021"
+            },
+            {
+                "CountyId": 2150,
+                "UtilityId": null,
+                "CountyName": "Coahoma",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 7,
+                "CustomerCount": 5956,
+                "fips": "28027"
+            },
+            {
+                "CountyId": 2157,
+                "UtilityId": null,
+                "CountyName": "Leflore",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1322,
+                "fips": "28083"
+            },
+            {
+                "CountyId": 2162,
+                "UtilityId": null,
+                "CountyName": "Tunica",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 5918,
+                "fips": "28143"
+            },
+            {
+                "CountyId": 2164,
+                "UtilityId": null,
+                "CountyName": "Simpson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 15932,
+                "fips": "28127"
+            },
+            {
+                "CountyId": 2165,
+                "UtilityId": null,
+                "CountyName": "Copiah",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 15731,
+                "fips": "28029"
+            },
+            {
+                "CountyId": 2168,
+                "UtilityId": null,
+                "CountyName": "Smith",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 10658,
+                "fips": "28129"
+            },
+            {
+                "CountyId": 2172,
+                "UtilityId": null,
+                "CountyName": "Webster",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1427,
+                "fips": "28155"
+            },
+            {
+                "CountyId": 2175,
+                "UtilityId": null,
+                "CountyName": "Carroll",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1279,
+                "fips": "28015"
+            },
+            {
+                "CountyId": 2188,
+                "UtilityId": null,
+                "CountyName": "Humphreys",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2614,
+                "fips": "28053"
+            },
+            {
+                "CountyId": 2191,
+                "UtilityId": null,
+                "CountyName": "Panola",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 18219,
+                "fips": "28107"
+            },
+            {
+                "CountyId": 2194,
+                "UtilityId": null,
+                "CountyName": "Quitman",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 2,
+                "CustomerCount": 4081,
+                "fips": "28119"
+            },
+            {
+                "CountyId": 2197,
+                "UtilityId": null,
+                "CountyName": "Scott",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 3,
+                "CustomerCount": 14641,
+                "fips": "28123"
+            },
+            {
+                "CountyId": 2198,
+                "UtilityId": null,
+                "CountyName": "Yazoo",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1333,
+                "fips": "28163"
+            },
+            {
+                "CountyId": 2199,
+                "UtilityId": null,
+                "CountyName": "Tallahatchie",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 7072,
+                "fips": "28135"
+            },
+            {
+                "CountyId": 2201,
+                "UtilityId": null,
+                "CountyName": "Jefferson Davis",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7886,
+                "fips": "28065"
+            },
+            {
+                "CountyId": 2204,
+                "UtilityId": null,
+                "CountyName": "Lawrence",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8725,
+                "fips": "28077"
+            },
+            {
+                "CountyId": 2205,
+                "UtilityId": null,
+                "CountyName": "Leake",
+                "CountyState": null,
+                "CountyStatus": "#1E5E84",
+                "OutageCount": 213,
+                "CustomerCount": 11421,
+                "fips": "28079"
+            },
+            {
+                "CountyId": 2206,
+                "UtilityId": null,
+                "CountyName": "Jefferson",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 3,
+                "CustomerCount": 4911,
+                "fips": "28063"
+            },
+            {
+                "CountyId": 2210,
+                "UtilityId": null,
+                "CountyName": "Choctaw",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8771,
+                "fips": "28019"
+            },
+            {
+                "CountyId": 2211,
+                "UtilityId": null,
+                "CountyName": "Marshall",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1016,
+                "fips": "28093"
+            },
+            {
+                "CountyId": 2212,
+                "UtilityId": null,
+                "CountyName": "Yalobusha",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5508,
+                "fips": "28161"
+            },
+            {
+                "CountyId": 2215,
+                "UtilityId": null,
+                "CountyName": "Walthall",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8693,
+                "fips": "28147"
+            },
+            {
+                "CountyId": 2259,
+                "UtilityId": null,
+                "CountyName": "Covington",
+                "CountyState": null,
+                "CountyStatus": "#0D5595",
+                "OutageCount": 90,
+                "CustomerCount": 11522,
+                "fips": "28031"
+            },
+            {
+                "CountyId": 2260,
+                "UtilityId": null,
+                "CountyName": "Forrest",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 39604,
+                "fips": "28035"
+            },
+            {
+                "CountyId": 2261,
+                "UtilityId": null,
+                "CountyName": "George",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 16885,
+                "fips": "28039"
+            },
+            {
+                "CountyId": 2262,
+                "UtilityId": null,
+                "CountyName": "Greene",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8930,
+                "fips": "28041"
+            },
+            {
+                "CountyId": 2263,
+                "UtilityId": null,
+                "CountyName": "Hancock",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 26516,
+                "fips": "28045"
+            },
+            {
+                "CountyId": 2264,
+                "UtilityId": null,
+                "CountyName": "Harrison",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 31,
+                "CustomerCount": 103866,
+                "fips": "28047"
+            },
+            {
+                "CountyId": 2265,
+                "UtilityId": null,
+                "CountyName": "Jackson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 79584,
+                "fips": "28059"
+            },
+            {
+                "CountyId": 2266,
+                "UtilityId": null,
+                "CountyName": "Jones",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 35209,
+                "fips": "28067"
+            },
+            {
+                "CountyId": 2267,
+                "UtilityId": null,
+                "CountyName": "Lamar",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 33058,
+                "fips": "28073"
+            },
+            {
+                "CountyId": 2268,
+                "UtilityId": null,
+                "CountyName": "Marion",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 13625,
+                "fips": "28091"
+            },
+            {
+                "CountyId": 2269,
+                "UtilityId": null,
+                "CountyName": "Pearl River",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 30231,
+                "fips": "28109"
+            },
+            {
+                "CountyId": 2270,
+                "UtilityId": null,
+                "CountyName": "Perry",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7363,
+                "fips": "28111"
+            },
+            {
+                "CountyId": 2271,
+                "UtilityId": null,
+                "CountyName": "Stone",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 13,
+                "CustomerCount": 9623,
+                "fips": "28131"
+            },
+            {
+                "CountyId": 2477,
+                "UtilityId": null,
+                "CountyName": "Clay",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7058,
+                "fips": "28025"
+            },
+            {
+                "CountyId": 2478,
+                "UtilityId": null,
+                "CountyName": "Lowndes",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8496,
+                "fips": "28087"
+            },
+            {
+                "CountyId": 2493,
+                "UtilityId": null,
+                "CountyName": "Monroe",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1963,
+                "fips": "28095"
+            },
+            {
+                "CountyId": 2495,
+                "UtilityId": null,
+                "CountyName": "Benton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 836,
+                "fips": "28009"
+            },
+            {
+                "CountyId": 2496,
+                "UtilityId": null,
+                "CountyName": "Lafayette",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 27165,
+                "fips": "28071"
+            },
+            {
+                "CountyId": 2497,
+                "UtilityId": null,
+                "CountyName": "Pontotoc",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2698,
+                "fips": "28115"
+            },
+            {
+                "CountyId": 2498,
+                "UtilityId": null,
+                "CountyName": "Union",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3835,
+                "fips": "28145"
+            },
+            {
+                "CountyId": 2502,
+                "UtilityId": null,
+                "CountyName": "Calhoun",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 40,
+                "fips": "28013"
+            },
+            {
+                "CountyId": 2537,
+                "UtilityId": null,
+                "CountyName": "Chickasaw",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 704,
+                "fips": "28017"
+            },
+            {
+                "CountyId": 3868,
+                "UtilityId": null,
+                "CountyName": "Alcorn",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 18940,
+                "fips": "28003"
+            },
+            {
+                "CountyId": 3869,
+                "UtilityId": null,
+                "CountyName": "Tippah",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10944,
+                "fips": "28139"
+            },
+            {
+                "CountyId": 4419,
+                "UtilityId": null,
+                "CountyName": "Itawamba",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 5772,
+                "fips": "28057"
+            },
+            {
+                "CountyId": 4548,
+                "UtilityId": null,
+                "CountyName": "Lyon",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4050
+            },
+            {
+                "CountyId": 4947,
+                "UtilityId": null,
+                "CountyName": "Yalabusha",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4976
+            },
+            {
+                "CountyId": 5016,
+                "UtilityId": null,
+                "CountyName": "Jeff Davis",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2
+            },
+            {
+                "CountyId": 5062,
+                "UtilityId": null,
+                "CountyName": "Lee",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 5,
+                "CustomerCount": 6944,
+                "fips": "28081"
+            },
+            {
+                "CountyId": 5096,
+                "UtilityId": null,
+                "CountyName": "Prentiss",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 466,
+                "fips": "28117"
+            },
+            {
+                "CountyId": 5132,
+                "UtilityId": null,
+                "CountyName": "Issaquena",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1,
+                "fips": "28055"
+            },
+            {
+                "CountyId": 5163,
+                "UtilityId": null,
+                "CountyName": "Pickens",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1
+            }
+        ]
+    },
+    "Florida": {
+        "WebCountyRecord": [
+            {
+                "CountyId": 290,
+                "UtilityId": null,
+                "CountyName": "Alachua",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 11,
+                "CustomerCount": 132269,
+                "fips": "12001"
+            },
+            {
+                "CountyId": 291,
+                "UtilityId": null,
+                "CountyName": "Baker",
+                "CountyState": null,
+                "CountyStatus": "#08539A",
+                "OutageCount": 60,
+                "CustomerCount": 12111,
+                "fips": "12003"
+            },
+            {
+                "CountyId": 292,
+                "UtilityId": null,
+                "CountyName": "Bay",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 117926,
+                "fips": "12005"
+            },
+            {
+                "CountyId": 293,
+                "UtilityId": null,
+                "CountyName": "Bradford",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10311,
+                "fips": "12007"
+            },
+            {
+                "CountyId": 294,
+                "UtilityId": null,
+                "CountyName": "Brevard",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 11,
+                "CustomerCount": 328309,
+                "fips": "12009"
+            },
+            {
+                "CountyId": 295,
+                "UtilityId": null,
+                "CountyName": "Broward",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 942,
+                "CustomerCount": 908110,
+                "fips": "12011"
+            },
+            {
+                "CountyId": 296,
+                "UtilityId": null,
+                "CountyName": "Charlotte",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 124139,
+                "fips": "12015"
+            },
+            {
+                "CountyId": 297,
+                "UtilityId": null,
+                "CountyName": "Citrus",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 91543,
+                "fips": "12017"
+            },
+            {
+                "CountyId": 298,
+                "UtilityId": null,
+                "CountyName": "Clay",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 39,
+                "CustomerCount": 92631,
+                "fips": "12019"
+            },
+            {
+                "CountyId": 299,
+                "UtilityId": null,
+                "CountyName": "Collier",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 26,
+                "CustomerCount": 261700,
+                "fips": "12021"
+            },
+            {
+                "CountyId": 300,
+                "UtilityId": null,
+                "CountyName": "Columbia",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 35072,
+                "fips": "12023"
+            },
+            {
+                "CountyId": 302,
+                "UtilityId": null,
+                "CountyName": "Dixie",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10598,
+                "fips": "12029"
+            },
+            {
+                "CountyId": 303,
+                "UtilityId": null,
+                "CountyName": "Duval",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 467433,
+                "fips": "12031"
+            },
+            {
+                "CountyId": 304,
+                "UtilityId": null,
+                "CountyName": "Flagler",
+                "CountyState": null,
+                "CountyStatus": "#04519E",
+                "OutageCount": 155,
+                "CustomerCount": 65102,
+                "fips": "12035"
+            },
+            {
+                "CountyId": 305,
+                "UtilityId": null,
+                "CountyName": "Franklin",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10588,
+                "fips": "12037"
+            },
+            {
+                "CountyId": 306,
+                "UtilityId": null,
+                "CountyName": "Gadsden",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2,
+                "fips": "12039"
+            },
+            {
+                "CountyId": 307,
+                "UtilityId": null,
+                "CountyName": "Gilchrist",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9802,
+                "fips": "12041"
+            },
+            {
+                "CountyId": 308,
+                "UtilityId": null,
+                "CountyName": "Glades",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6718,
+                "fips": "12043"
+            },
+            {
+                "CountyId": 309,
+                "UtilityId": null,
+                "CountyName": "Gulf",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11478,
+                "fips": "12045"
+            },
+            {
+                "CountyId": 310,
+                "UtilityId": null,
+                "CountyName": "Hamilton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6965,
+                "fips": "12047"
+            },
+            {
+                "CountyId": 311,
+                "UtilityId": null,
+                "CountyName": "Hardee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9495,
+                "fips": "12049"
+            },
+            {
+                "CountyId": 312,
+                "UtilityId": null,
+                "CountyName": "Hendry",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 3,
+                "CustomerCount": 15254,
+                "fips": "12051"
+            },
+            {
+                "CountyId": 313,
+                "UtilityId": null,
+                "CountyName": "Hernando",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 99207,
+                "fips": "12053"
+            },
+            {
+                "CountyId": 314,
+                "UtilityId": null,
+                "CountyName": "Highlands",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 64068,
+                "fips": "12055"
+            },
+            {
+                "CountyId": 315,
+                "UtilityId": null,
+                "CountyName": "Hillsborough",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 326,
+                "CustomerCount": 673506,
+                "fips": "12057"
+            },
+            {
+                "CountyId": 316,
+                "UtilityId": null,
+                "CountyName": "Indian River",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 8,
+                "CustomerCount": 95462,
+                "fips": "12061"
+            },
+            {
+                "CountyId": 317,
+                "UtilityId": null,
+                "CountyName": "Jefferson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 8479,
+                "fips": "12065"
+            },
+            {
+                "CountyId": 318,
+                "UtilityId": null,
+                "CountyName": "Lafayette",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4282,
+                "fips": "12067"
+            },
+            {
+                "CountyId": 319,
+                "UtilityId": null,
+                "CountyName": "Lake",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 8,
+                "CustomerCount": 164703,
+                "fips": "12069"
+            },
+            {
+                "CountyId": 320,
+                "UtilityId": null,
+                "CountyName": "Lee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 18,
+                "CustomerCount": 468741,
+                "fips": "12071"
+            },
+            {
+                "CountyId": 321,
+                "UtilityId": null,
+                "CountyName": "Leon",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 105451,
+                "fips": "12073"
+            },
+            {
+                "CountyId": 322,
+                "UtilityId": null,
+                "CountyName": "Levy",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 24623,
+                "fips": "12075"
+            },
+            {
+                "CountyId": 323,
+                "UtilityId": null,
+                "CountyName": "Liberty",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2,
+                "fips": "12077"
+            },
+            {
+                "CountyId": 324,
+                "UtilityId": null,
+                "CountyName": "Madison",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11233,
+                "fips": "12079"
+            },
+            {
+                "CountyId": 325,
+                "UtilityId": null,
+                "CountyName": "Manatee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 229175,
+                "fips": "12081"
+            },
+            {
+                "CountyId": 326,
+                "UtilityId": null,
+                "CountyName": "Marion",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 4,
+                "CustomerCount": 202389,
+                "fips": "12083"
+            },
+            {
+                "CountyId": 327,
+                "UtilityId": null,
+                "CountyName": "Martin",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 11,
+                "CustomerCount": 97793,
+                "fips": "12085"
+            },
+            {
+                "CountyId": 328,
+                "UtilityId": null,
+                "CountyName": "Miami-dade",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 417,
+                "CustomerCount": 1186623,
+                "fips": "12086"
+            },
+            {
+                "CountyId": 329,
+                "UtilityId": null,
+                "CountyName": "Monroe",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 61603,
+                "fips": "12087"
+            },
+            {
+                "CountyId": 330,
+                "UtilityId": null,
+                "CountyName": "Nassau",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 32960,
+                "fips": "12089"
+            },
+            {
+                "CountyId": 331,
+                "UtilityId": null,
+                "CountyName": "Okeechobee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 20563,
+                "fips": "12093"
+            },
+            {
+                "CountyId": 332,
+                "UtilityId": null,
+                "CountyName": "Orange",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 121,
+                "CustomerCount": 618993,
+                "fips": "12095"
+            },
+            {
+                "CountyId": 333,
+                "UtilityId": null,
+                "CountyName": "Osceola",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 187558,
+                "fips": "12097"
+            },
+            {
+                "CountyId": 334,
+                "UtilityId": null,
+                "CountyName": "Palm Beach",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 585,
+                "CustomerCount": 773575,
+                "fips": "12099"
+            },
+            {
+                "CountyId": 335,
+                "UtilityId": null,
+                "CountyName": "Pasco",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 257983,
+                "fips": "12101"
+            },
+            {
+                "CountyId": 336,
+                "UtilityId": null,
+                "CountyName": "Pinellas",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 239,
+                "CustomerCount": 564937,
+                "fips": "12103"
+            },
+            {
+                "CountyId": 337,
+                "UtilityId": null,
+                "CountyName": "Polk",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 336211,
+                "fips": "12105"
+            },
+            {
+                "CountyId": 338,
+                "UtilityId": null,
+                "CountyName": "Putnam",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 5,
+                "CustomerCount": 42225,
+                "fips": "12107"
+            },
+            {
+                "CountyId": 339,
+                "UtilityId": null,
+                "CountyName": "Sarasota",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 55,
+                "CustomerCount": 288091,
+                "fips": "12115"
+            },
+            {
+                "CountyId": 340,
+                "UtilityId": null,
+                "CountyName": "Seminole",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 37,
+                "CustomerCount": 222349,
+                "fips": "12117"
+            },
+            {
+                "CountyId": 342,
+                "UtilityId": null,
+                "CountyName": "St. Lucie",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 6,
+                "CustomerCount": 170343,
+                "fips": "12111"
+            },
+            {
+                "CountyId": 343,
+                "UtilityId": null,
+                "CountyName": "Sumter",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 82276,
+                "fips": "12119"
+            },
+            {
+                "CountyId": 344,
+                "UtilityId": null,
+                "CountyName": "Suwannee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 23693,
+                "fips": "12121"
+            },
+            {
+                "CountyId": 345,
+                "UtilityId": null,
+                "CountyName": "Taylor",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 13325,
+                "fips": "12123"
+            },
+            {
+                "CountyId": 346,
+                "UtilityId": null,
+                "CountyName": "Union",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 5680,
+                "fips": "12125"
+            },
+            {
+                "CountyId": 347,
+                "UtilityId": null,
+                "CountyName": "Unknown",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 134470
+            },
+            {
+                "CountyId": 348,
+                "UtilityId": null,
+                "CountyName": "Volusia",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 31,
+                "CustomerCount": 278193,
+                "fips": "12127"
+            },
+            {
+                "CountyId": 349,
+                "UtilityId": null,
+                "CountyName": "Wakulla",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7224,
+                "fips": "12129"
+            },
+            {
+                "CountyId": 2272,
+                "UtilityId": null,
+                "CountyName": "Escambia",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 156942,
+                "fips": "12033"
+            },
+            {
+                "CountyId": 2273,
+                "UtilityId": null,
+                "CountyName": "Holmes",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 10651,
+                "fips": "12059"
+            },
+            {
+                "CountyId": 2274,
+                "UtilityId": null,
+                "CountyName": "Jackson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 15091,
+                "fips": "12063"
+            },
+            {
+                "CountyId": 2275,
+                "UtilityId": null,
+                "CountyName": "Okaloosa",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 114300,
+                "fips": "12091"
+            },
+            {
+                "CountyId": 2276,
+                "UtilityId": null,
+                "CountyName": "Santa Rosa",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 84805,
+                "fips": "12113"
+            },
+            {
+                "CountyId": 2277,
+                "UtilityId": null,
+                "CountyName": "Walton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 66908,
+                "fips": "12131"
+            },
+            {
+                "CountyId": 2278,
+                "UtilityId": null,
+                "CountyName": "Washington",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 21,
+                "CustomerCount": 13624,
+                "fips": "12133"
+            },
+            {
+                "CountyId": 2317,
+                "UtilityId": null,
+                "CountyName": "St. Johns",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 40,
+                "CustomerCount": 127598,
+                "fips": "12109"
+            },
+            {
+                "CountyId": 2340,
+                "UtilityId": null,
+                "CountyName": "Desoto",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 16013,
+                "fips": "12027"
+            },
+            {
+                "CountyId": 2343,
+                "UtilityId": null,
+                "CountyName": "Calhoun",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4845,
+                "fips": "12013"
+            }
+        ]
+    },
+    "Alabama": {
+        "WebCountyRecord": [
+            {
+                "CountyId": 45,
+                "UtilityId": null,
+                "CountyName": "Coffee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 5,
+                "CustomerCount": 30926,
+                "fips": "01031"
+            },
+            {
+                "CountyId": 46,
+                "UtilityId": null,
+                "CountyName": "Covington",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 14356,
+                "fips": "01039"
+            },
+            {
+                "CountyId": 47,
+                "UtilityId": null,
+                "CountyName": "Dale",
+                "CountyState": null,
+                "CountyStatus": "#014FA1",
+                "OutageCount": 8,
+                "CustomerCount": 18897,
+                "fips": "01045"
+            },
+            {
+                "CountyId": 48,
+                "UtilityId": null,
+                "CountyName": "Dallas",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 22962,
+                "fips": "01047"
+            },
+            {
+                "CountyId": 49,
+                "UtilityId": null,
+                "CountyName": "Geneva",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 17130,
+                "fips": "01061"
+            },
+            {
+                "CountyId": 50,
+                "UtilityId": null,
+                "CountyName": "Henry",
+                "CountyState": null,
+                "CountyStatus": "#07539B",
+                "OutageCount": 36,
+                "CustomerCount": 7841,
+                "fips": "01067"
+            },
+            {
+                "CountyId": 51,
+                "UtilityId": null,
+                "CountyName": "Houston",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 29021,
+                "fips": "01069"
+            },
+            {
+                "CountyId": 52,
+                "UtilityId": null,
+                "CountyName": "Unknown",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12282
+            },
+            {
+                "CountyId": 898,
+                "UtilityId": null,
+                "CountyName": "Talladega",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 46564,
+                "fips": "01121"
+            },
+            {
+                "CountyId": 900,
+                "UtilityId": null,
+                "CountyName": "Elmore",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 45705,
+                "fips": "01051"
+            },
+            {
+                "CountyId": 923,
+                "UtilityId": null,
+                "CountyName": "Macon",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2911,
+                "fips": "01087"
+            },
+            {
+                "CountyId": 924,
+                "UtilityId": null,
+                "CountyName": "Lee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 79448,
+                "fips": "01081"
+            },
+            {
+                "CountyId": 927,
+                "UtilityId": null,
+                "CountyName": "Butler",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10945,
+                "fips": "01013"
+            },
+            {
+                "CountyId": 951,
+                "UtilityId": null,
+                "CountyName": "Montgomery",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 106702,
+                "fips": "01101"
+            },
+            {
+                "CountyId": 954,
+                "UtilityId": null,
+                "CountyName": "Autauga",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 28577,
+                "fips": "01001"
+            },
+            {
+                "CountyId": 962,
+                "UtilityId": null,
+                "CountyName": "Lowndes",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6285,
+                "fips": "01085"
+            },
+            {
+                "CountyId": 969,
+                "UtilityId": null,
+                "CountyName": "Wilcox",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6620,
+                "fips": "01131"
+            },
+            {
+                "CountyId": 980,
+                "UtilityId": null,
+                "CountyName": "Coosa",
+                "CountyState": null,
+                "CountyStatus": "#0250A0",
+                "OutageCount": 9,
+                "CustomerCount": 7788,
+                "fips": "01037"
+            },
+            {
+                "CountyId": 987,
+                "UtilityId": null,
+                "CountyName": "Shelby",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 7,
+                "CustomerCount": 108048,
+                "fips": "01117"
+            },
+            {
+                "CountyId": 994,
+                "UtilityId": null,
+                "CountyName": "Bullock",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6513,
+                "fips": "01011"
+            },
+            {
+                "CountyId": 1003,
+                "UtilityId": null,
+                "CountyName": "Chilton",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 25817,
+                "fips": "01021"
+            },
+            {
+                "CountyId": 1010,
+                "UtilityId": null,
+                "CountyName": "Pike",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 12070,
+                "fips": "01109"
+            },
+            {
+                "CountyId": 1034,
+                "UtilityId": null,
+                "CountyName": "Perry",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4902,
+                "fips": "01105"
+            },
+            {
+                "CountyId": 1046,
+                "UtilityId": null,
+                "CountyName": "Greene",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2610,
+                "fips": "01063"
+            },
+            {
+                "CountyId": 1047,
+                "UtilityId": null,
+                "CountyName": "Crenshaw",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 13667,
+                "fips": "01041"
+            },
+            {
+                "CountyId": 1143,
+                "UtilityId": null,
+                "CountyName": "Tallapoosa",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 21178,
+                "fips": "01123"
+            },
+            {
+                "CountyId": 1165,
+                "UtilityId": null,
+                "CountyName": "Monroe",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7449,
+                "fips": "01099"
+            },
+            {
+                "CountyId": 1167,
+                "UtilityId": null,
+                "CountyName": "Calhoun",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 59319,
+                "fips": "01015"
+            },
+            {
+                "CountyId": 1169,
+                "UtilityId": null,
+                "CountyName": "St. Clair",
+                "CountyState": null,
+                "CountyStatus": "#0150A1",
+                "OutageCount": 46,
+                "CustomerCount": 51755,
+                "fips": "01115"
+            },
+            {
+                "CountyId": 1172,
+                "UtilityId": null,
+                "CountyName": "Mobile",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 209102,
+                "fips": "01097"
+            },
+            {
+                "CountyId": 1176,
+                "UtilityId": null,
+                "CountyName": "Conecuh",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 561,
+                "fips": "01035"
+            },
+            {
+                "CountyId": 1847,
+                "UtilityId": null,
+                "CountyName": "Washington",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 584,
+                "fips": "01129"
+            },
+            {
+                "CountyId": 2149,
+                "UtilityId": null,
+                "CountyName": "Escambia",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11609,
+                "fips": "01053"
+            },
+            {
+                "CountyId": 2280,
+                "UtilityId": null,
+                "CountyName": "Baldwin",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 6,
+                "CustomerCount": 130851,
+                "fips": "01003"
+            },
+            {
+                "CountyId": 2281,
+                "UtilityId": null,
+                "CountyName": "Barbour",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10921,
+                "fips": "01005"
+            },
+            {
+                "CountyId": 2282,
+                "UtilityId": null,
+                "CountyName": "Bibb",
+                "CountyState": null,
+                "CountyStatus": "#0F5793",
+                "OutageCount": 108,
+                "CustomerCount": 11497,
+                "fips": "01007"
+            },
+            {
+                "CountyId": 2283,
+                "UtilityId": null,
+                "CountyName": "Blount",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 31074,
+                "fips": "01009"
+            },
+            {
+                "CountyId": 2284,
+                "UtilityId": null,
+                "CountyName": "Chambers",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 12282,
+                "fips": "01017"
+            },
+            {
+                "CountyId": 2285,
+                "UtilityId": null,
+                "CountyName": "Cherokee",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 48,
+                "fips": "01019"
+            },
+            {
+                "CountyId": 2286,
+                "UtilityId": null,
+                "CountyName": "Choctaw",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2897,
+                "fips": "01023"
+            },
+            {
+                "CountyId": 2287,
+                "UtilityId": null,
+                "CountyName": "Clarke",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7768,
+                "fips": "01025"
+            },
+            {
+                "CountyId": 2288,
+                "UtilityId": null,
+                "CountyName": "Clay",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 7017,
+                "fips": "01027"
+            },
+            {
+                "CountyId": 2289,
+                "UtilityId": null,
+                "CountyName": "Cleburne",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9407,
+                "fips": "01029"
+            },
+            {
+                "CountyId": 2290,
+                "UtilityId": null,
+                "CountyName": "Cullman",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 2,
+                "CustomerCount": 31169,
+                "fips": "01043"
+            },
+            {
+                "CountyId": 2291,
+                "UtilityId": null,
+                "CountyName": "Etowah",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 53699,
+                "fips": "01055"
+            },
+            {
+                "CountyId": 2292,
+                "UtilityId": null,
+                "CountyName": "Fayette",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 10679,
+                "fips": "01057"
+            },
+            {
+                "CountyId": 2293,
+                "UtilityId": null,
+                "CountyName": "Franklin",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 4848,
+                "fips": "01059"
+            },
+            {
+                "CountyId": 2294,
+                "UtilityId": null,
+                "CountyName": "Hale",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6966,
+                "fips": "01065"
+            },
+            {
+                "CountyId": 2295,
+                "UtilityId": null,
+                "CountyName": "Jefferson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 64,
+                "CustomerCount": 323812,
+                "fips": "01073"
+            },
+            {
+                "CountyId": 2296,
+                "UtilityId": null,
+                "CountyName": "Lamar",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 10764,
+                "fips": "01075"
+            },
+            {
+                "CountyId": 2297,
+                "UtilityId": null,
+                "CountyName": "Lawrence",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 382,
+                "fips": "01079"
+            },
+            {
+                "CountyId": 2298,
+                "UtilityId": null,
+                "CountyName": "Marengo",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 9046,
+                "fips": "01091"
+            },
+            {
+                "CountyId": 2299,
+                "UtilityId": null,
+                "CountyName": "Marion",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 24422,
+                "fips": "01093"
+            },
+            {
+                "CountyId": 2300,
+                "UtilityId": null,
+                "CountyName": "Marshall",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 1485,
+                "fips": "01095"
+            },
+            {
+                "CountyId": 2301,
+                "UtilityId": null,
+                "CountyName": "Pickens",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11400,
+                "fips": "01107"
+            },
+            {
+                "CountyId": 2302,
+                "UtilityId": null,
+                "CountyName": "Randolph",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 13679,
+                "fips": "01111"
+            },
+            {
+                "CountyId": 2303,
+                "UtilityId": null,
+                "CountyName": "Russell",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 22371,
+                "fips": "01113"
+            },
+            {
+                "CountyId": 2304,
+                "UtilityId": null,
+                "CountyName": "Sumter",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 6673,
+                "fips": "01119"
+            },
+            {
+                "CountyId": 2305,
+                "UtilityId": null,
+                "CountyName": "Tuscaloosa",
+                "CountyState": null,
+                "CountyStatus": "#06529C",
+                "OutageCount": 429,
+                "CustomerCount": 108670,
+                "fips": "01125"
+            },
+            {
+                "CountyId": 2306,
+                "UtilityId": null,
+                "CountyName": "Walker",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 38473,
+                "fips": "01127"
+            },
+            {
+                "CountyId": 2307,
+                "UtilityId": null,
+                "CountyName": "Winston",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 23896,
+                "fips": "01133"
+            },
+            {
+                "CountyId": 2308,
+                "UtilityId": null,
+                "CountyName": "Lauderdale",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 71928,
+                "fips": "01077"
+            },
+            {
+                "CountyId": 2447,
+                "UtilityId": null,
+                "CountyName": "Morgan",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 28448,
+                "fips": "01103"
+            },
+            {
+                "CountyId": 2485,
+                "UtilityId": null,
+                "CountyName": "Madison",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 1,
+                "CustomerCount": 179380,
+                "fips": "01089"
+            },
+            {
+                "CountyId": 3713,
+                "UtilityId": null,
+                "CountyName": "Limestone",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 51,
+                "fips": "01083"
+            },
+            {
+                "CountyId": 3832,
+                "UtilityId": null,
+                "CountyName": "Jackson",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 11,
+                "fips": "01071"
+            },
+            {
+                "CountyId": 5124,
+                "UtilityId": null,
+                "CountyName": "Giles",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 3
+            },
+            {
+                "CountyId": 5270,
+                "UtilityId": null,
+                "CountyName": "Itawamba",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 2
+            },
+            {
+                "CountyId": 5459,
+                "UtilityId": null,
+                "CountyName": "Bay",
+                "CountyState": null,
+                "CountyStatus": "#004FA2",
+                "OutageCount": 0,
+                "CustomerCount": 17
+            }
+        ]
+    }
+}

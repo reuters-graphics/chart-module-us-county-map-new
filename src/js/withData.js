@@ -252,7 +252,7 @@ class CountyMap {
                     }
                 });
 
-            // this.drawStates()
+            this.drawStates()
             this.drawBorders();
             this.drawLabels();
         });
