@@ -47,7 +47,7 @@ class CountyMap {
   }
 
   defaultProps = {
-    aspectHeight: 0.66,
+    aspectHeight: 0.66, // Set height of map
     margin: {
       top: 0,
       right: 20,

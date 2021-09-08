@@ -268564,6 +268564,7 @@ var CountyMap = /*#__PURE__*/function () {
 
     _defineProperty(this, "defaultProps", {
       aspectHeight: 0.66,
+      // Set height of map
       margin: {
         top: 0,
         right: 20,
