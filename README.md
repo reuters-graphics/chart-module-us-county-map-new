@@ -2,7 +2,8 @@
 
 # CountyMap
 
-See the [demo page](https://reuters-graphics.github.io/chart-module-us-county-map-new/).
+See the [demo page](https://reuters-graphics.github.io/chart-module-us-county-map-new/) for a complete readMe for this module.
+Readme for this chart module's [props](https://github.com/reuters-graphics/chart-module-us-county-map-new/blob/master/src/js/propsReadme.js)
 
 ### Install
 
