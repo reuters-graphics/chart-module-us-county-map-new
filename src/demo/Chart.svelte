@@ -10,7 +10,8 @@ Follow the notes below! -->
   import choroplethCountiesData from '../js/data/choroplethCountiesData.json';
   import * as d3 from 'd3';
 
-  let propsReadmeURL = '';
+  let propsReadmeURL =
+    'https://github.com/reuters-graphics/chart-module-us-county-map-new/blob/master/src/js/propsReadme.js';
 
   let chartContainer;
 
@@ -85,10 +86,13 @@ Follow the notes below! -->
 <div class="important pb-5">
   <h2>Important links</h2>
   <p>
-    <a href="" target="_blank">Chart module repo</a>
+    <a
+      href="https://github.com/reuters-graphics/chart-module-us-county-map-new"
+      target="_blank">Chart module repo</a
+    >
   </p>
   <p>
-    <a href="" target="_blank">Readme for props</a>
+    <a href={propsReadmeURL} target="_blank">Readme for props</a>
   </p>
 </div>
 
