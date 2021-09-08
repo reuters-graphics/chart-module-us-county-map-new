@@ -4,6 +4,7 @@ import * as utils from './utils';
 
 import { appendSelect } from 'd3-appendselect';
 // import choroplethData from './data/choroplethData.json'
+import choroplethCountiesData from './data/choroplethCountiesData.json'
 import fipsStateCodes from './data/fipsStateCodes.json'
 import labelPos from './data/labelPos.json';
 import merge from 'lodash/merge';
@@ -75,7 +76,11 @@ class CountyMap {
  - Make data: null if you're not mapping any data
     */
     data: {
-      url: 'https://graphics.thomsonreuters.com/data/ida_power.json',
+      dataType: 'url',
+      dataOrganizedBy: 'county', // OR 'state'
+      ignoreColumn: 'timeStamp', // if there is a col in your data you want to ignore. Set to null if not using. Only works if dataOrganizedBy: 'state'
+      nestedInThisCol: 'WebCountyRecord', // If your county data inside each state is further nested in another col. Set to null if not using. Only works if dataOrganizedBy: 'state'
+      url: 'https://graphics.thomsonreuters.com/data/ida_power.json', // Leave null if pulling data from a local json file
       valueColName: 'OutageCount', // Column name of the values you want to chart
       missingDataFill: 'white',
     },
@@ -107,7 +112,7 @@ class CountyMap {
     });
   }
 
-  filterData() {
+  filterStateData() {
     const props = this.props()
     let lookupStateFips = {};
     fipsStateCodes.forEach((d) => {
@@ -128,6 +133,65 @@ class CountyMap {
     this.us.features = this.filteredData; // Redefines projection extent
   }
 
+  filterCountyData() {
+    const props = this.props()
+    let countiesData
+    if (props.showTheseStates !== null && props.hideOtherStates) {
+      countiesData = this.filteredData
+    } else {
+      countiesData = this.counties.features
+    }
+    return countiesData
+  }
+
+  makeLookupObj(mapData) {
+    const props = this.props()
+
+    let lookupObj = {};
+
+    /* Check mapData to see how it is structured and make a lookup object for mapData.
+     Your data should look like chroloplethCountiesData.json if it's flat (every data point = every county).
+     Your data should look like hloroplethData.json if it's organised by states.
+     */
+
+    if (props.data.dataOrganizedBy == 'county') {
+
+      mapData.forEach((d) => {
+        lookupObj[d.fips] = d
+        /* If you need to make calculations and map out those values, do something like this:  */
+        //  lookupObj[d.fips]['calculatedValue'] = (d.OutageCount / d.CustomerCount) * 100;
+        // });
+      });
+
+    } else if (props.data.dataOrganizedBy == 'state') {
+
+      Object.keys(mapData)
+        .filter((stateName) => stateName !== props.data.ignoreColumn)
+        .forEach((stateName) => {
+          let stateData
+          if (props.data.nestedInThisCol) {
+            stateData = mapData[stateName][props.data.nestedInThisCol]
+            stateData.forEach((d) => {
+              lookupObj[d.fips] = d;
+              lookupObj[d.fips]['state'] = stateName;
+              lookupObj[d.fips][props.data.valueColName] = d[props.data.valueColName]
+
+              /* If you need to make calculations and map out those values, do something like this:  */
+              //  lookupObj[d.fips]['calculatedValue'] = (d.OutageCount / d.CustomerCount) * 100;
+              // });
+            });
+          } else {
+            stateData = mapData[stateName]
+          }
+
+        });
+    } else {
+      console.log('ERROR! Check your data structure. Write your own code to structure your data if necessary')
+    }
+    return lookupObj
+    // console.log('lookupObj', lookupObj)
+  }
+
   setProjection() {
     const props = this.props()
     //Set the projection and path function
@@ -146,7 +210,7 @@ class CountyMap {
 
     //Update our data and scales when the page redraws
     this.setData();
-    if (props.showTheseStates !== null) this.filterData()
+    if (props.showTheseStates !== null) this.filterStateData()
     this.setProjection();
 
     //Define our target selection
@@ -270,104 +334,47 @@ class CountyMap {
     this.drawLabels();
   }
 
-  drawMapWithDataStatic() {
+  drawMapWithLocalData() {
     const plot = this.plot;
     const props = this.props()
-    const mapData = this.mapData()
+
+    let countiesData = this.filterCountyData()
+    let lookupObj = this.makeLookupObj(this.mapData())
+
     const countiesGroup = plot.appendSelect('g.counties-g.features-g');
-
-    let countiesData
-    if (props.showTheseStates !== null && props.hideOtherStates) {
-      countiesData = this.filteredData
-    } else {
-      countiesData = this.counties.features
-    }
-
-    /* MAKE LOOKUP OBJECT AND DRAW COUNTIES */
-    let lookupObj = {};
-    console.log('data', this.data())
-    console.log('mapData', mapData)
-
-    // Local json data version START HERE. Replace url map data with local mapdata
-
-
-    // d3.json(props.data.url).then((mapData) => {
-    //   Object.keys(mapData)
-    //     .filter((stateName) => stateName !== 'timeStamp')
-    //     .forEach((stateName) => {
-    //       let stateData = mapData[stateName].WebCountyRecord;
-
-    //       stateData.forEach((d) => {
-    //         lookupObj[d.fips] = d;
-    //         lookupObj[d.fips]['state'] = stateName;
-    //         lookupObj[d.fips][props.data.valueColName] = d[props.data.valueColName]
-
-    //         /* If you need to make calculations and map out those values, do something like this:  */
-    //         //  lookupObj[d.fips]['calculatedValue'] = (d.OutageCount / d.CustomerCount) * 100;
-    //         // });
-    //       });
-
-    //     });
-
-    //   const countiesGroup = plot.appendSelect('g.counties-g.features-g');
-    //   const counties = countiesGroup
-    //     .selectAll('.county')
-    //     .data(countiesData, (d) => {
-    //       return d.id;
-    //     })
-    //     .join('path')
-    //     .attr('class', 'county')
-    //     .attr('d', this.path)
-    //     .style('fill', (d) => {
-    //       /* Check if fips code exists in the data */
-    //       let fips = d.id; //FIPS code from base map shapefile
-    //       let datum = lookupObj[fips] ? lookupObj[fips] : null;
-    //       if (!datum) {
-    //         return props.data.missingDataFill; // Make white if data for this county
-    //       } else {
-    //         return this.colorScale(datum[props.data.valueColName]);
-    //       }
-    //     });
+    const counties = countiesGroup
+      .selectAll('.county')
+      .data(countiesData, (d) => {
+        return d.id;
+      })
+      .join('path')
+      .attr('class', 'county')
+      .attr('d', this.path)
+      .style('fill', (d) => {
+        /* Check if fips code exists in the data */
+        let fips = d.id; //FIPS code from base map shapefile
+        let datum = lookupObj[fips] ? lookupObj[fips] : null;
+        if (!datum) {
+          return props.data.missingDataFill; // Make white if data for this county
+        } else {
+          return this.colorScale(datum[props.data.valueColName]);
+        }
+      });
 
     this.drawStates()
     this.drawBorders();
     this.drawLabels();
   }
 
-  drawMapWithDataDynamic() {
+  drawMapWithUrlData() {
     const plot = this.plot;
     const props = this.props()
-    const mapData = this.mapData()
-    const countiesGroup = plot.appendSelect('g.counties-g.features-g');
+    let countiesData = this.filterCountyData()
 
-    let countiesData
-    if (props.showTheseStates !== null && props.hideOtherStates) {
-      countiesData = this.filteredData
-    } else {
-      countiesData = this.counties.features
-    }
-
-    /* MAKE LOOKUP OBJECT AND DRAW COUNTIES */
-    let lookupObj = {};
-
+    /* DRAW COUNTIES USING LOOKUP OBJ */
     d3.json(props.data.url).then((mapData) => {
-      Object.keys(mapData)
-        .filter((stateName) => stateName !== 'timeStamp')
-        .forEach((stateName) => {
-          let stateData = mapData[stateName].WebCountyRecord;
 
-          stateData.forEach((d) => {
-            lookupObj[d.fips] = d;
-            lookupObj[d.fips]['state'] = stateName;
-            lookupObj[d.fips][props.data.valueColName] = d[props.data.valueColName]
-
-            /* If you need to make calculations and map out those values, do something like this:  */
-            //  lookupObj[d.fips]['calculatedValue'] = (d.OutageCount / d.CustomerCount) * 100;
-            // });
-          });
-
-        });
-
+      let lookupObj = this.makeLookupObj(mapData)
       const countiesGroup = plot.appendSelect('g.counties-g.features-g');
       const counties = countiesGroup
         .selectAll('.county')
@@ -414,12 +421,11 @@ class CountyMap {
 
     if (props.data == null) {
       this.drawBasicMap();
-    } else if (props.data.url) {
-      this.drawMapWithDataDynamic()
-    } else {
-      this.drawMapWithDataStatic()
+    } else if (props.data.source == 'local') {
+      this.drawMapWithLocalData()
+    } else if (props.data.source == 'url' && props.data.url) {
+      this.drawMapWithUrlData()
     }
-
     // this.addTimeStamp();
     return this; // Generally, always return the chart class from draw!
   }

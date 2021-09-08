@@ -7,6 +7,7 @@ Follow the notes below! -->
   import Explorer from './App/Explorer.svelte';
   import CountyMap from '../js/index';
   import choroplethData from '../js/data/choroplethData.json';
+  import choroplethCountiesData from '../js/data/choroplethCountiesData.json';
 
   let chartContainer;
 
@@ -17,10 +18,15 @@ Follow the notes below! -->
     stateLabelType: (d) => d.name,
     showTheseStates: ['Alabama', 'Louisiana', 'Mississippi'],
     hideOtherStates: true,
+
     data: {
-      url: 'https://graphics.thomsonreuters.com/data/ida_power.json', // leave null if pulling data from a local json file
+      source: 'url', // 'local' or 'url'
+      dataOrganizedBy: 'state', // 'county' OR 'state'
+      ignoreColumn: 'timeStamp', // if there is a col in your data you want to ignore. Set to null if not using. Only works if dataOrganizedBy: 'state'
+      nestedInThisCol: 'WebCountyRecord', // If your county data inside each state is further nested in another col. Set to null if not using. Only works if dataOrganizedBy: 'state'
+      url: 'https://graphics.thomsonreuters.com/data/ida_power.json',
       valueColName: 'OutageCount', // Column name of the values you want to chart
-      missingDataFill: 'white',
+      missingDataFill: 'yellow',
     },
   };
 
@@ -37,7 +43,7 @@ Follow the notes below! -->
 
     partialChart
       .selection('#partial-map')
-      .mapData(choroplethData)
+      .mapData(choroplethCountiesData) //  choroplethCountiesData choroplethData
       .props(partialMapProps)
       .draw();
   });
