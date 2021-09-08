@@ -87,7 +87,7 @@ Follow the notes below! -->
   <h2>Important links</h2>
   <p>
     <a
-      href="https://github.com/reuters-graphics/chart-module-us-county-map-new"
+      href="https://github.com/reuters-graphics/chart-module-us-county-map"
       target="_blank">Chart module repo</a
     >
   </p>
@@ -144,10 +144,25 @@ if you want to draw just a base map with no data
       }
 
       let changeColorScale = {
+        showTheseStates: ['Alabama', 'Louisiana', 'Mississippi'],
+        projection: d3.geoAlbersUsa(),
+        hideOtherStates: true,
+
         colorScale: {
           colorScheme: colorScheme,
         },
+
+        data: {
+          source: 'local', // 'local' or 'url'
+          nestedByState: true,
+          getCountyData: (d) => d.WebCountyRecord.values, // Only necessary if your data is nested. Specify the column in your data that countains the county-level data values you want to map
+          getFipsCode: (d) => d.fips, // Col in your data that contains the county fips code
+          url: 'https://graphics.thomsonreuters.com/data/ida_power.json',
+          valueColName: 'OutageCount', // Column name of the values you want to chart
+          missingDataFill: 'light',
+        },
       };
+
       partialChart = new CountyMap(); // For some reason, d3 colour scale kicks in only if I call a new instance of CountyMap()
 
       partialChart
@@ -169,6 +184,7 @@ if you want to draw just a base map with no data
     on:click={() => {
       console.log('clicked, show/hide other states');
       hideOtherStates = hideOtherStates === true ? false : true;
+      showTheseStates = ['Alabama', 'Louisiana', 'Mississippi'];
     }}
     >Show/hide surrounding states
   </button>
@@ -193,6 +209,7 @@ if you want to draw just a base map with no data
       } else {
         showTheseStates = null;
       }
+      projection = d3.geoAlbersUsa();
     }}
     >Show entire map
   </button>

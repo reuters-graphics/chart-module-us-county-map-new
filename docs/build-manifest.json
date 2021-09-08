@@ -303,7 +303,7 @@
       "imports": []
     },
     "dist/demo/Chart.svelte.js": {
-      "bytes": 19281,
+      "bytes": 20063,
       "imports": [
         {
           "path": "dist/demo/Chart.svelte.css",
@@ -497,7 +497,7 @@
           "bytesInOutput": 80545
         },
         "dist/demo/Chart.svelte.js": {
-          "bytesInOutput": 8612
+          "bytesInOutput": 8970
         },
         "dist/demo/App/App.svelte.js": {
           "bytesInOutput": 892
@@ -506,7 +506,7 @@
           "bytesInOutput": 44
         }
       },
-      "bytes": 2270811
+      "bytes": 2271169
     },
     "../~~bundle~~/dist/demo/App/index.css": {
       "imports": [],
