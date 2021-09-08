@@ -14,7 +14,6 @@ Follow the notes below! -->
     'https://github.com/reuters-graphics/chart-module-us-county-map-new/blob/master/src/js/propsReadme.js';
 
   let chartContainer;
-
   let chart = new CountyMap();
   let partialChart = new CountyMap();
 
