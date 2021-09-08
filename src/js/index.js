@@ -76,7 +76,9 @@ class CountyMap {
  - Make data: null if you're not mapping any data
     */
     data: {
-      dataType: 'url',
+      // getX: (d) => d.date, props.getX(d)
+
+      dataType: 'url', // or 'local'
       dataOrganizedBy: 'county', // OR 'state'
       ignoreColumn: 'timeStamp', // if there is a col in your data you want to ignore. Set to null if not using. Only works if dataOrganizedBy: 'state'
       nestedInThisCol: 'WebCountyRecord', // If your county data inside each state is further nested in another col. Set to null if not using. Only works if dataOrganizedBy: 'state'
@@ -88,7 +90,7 @@ class CountyMap {
     // Colour scale
     colorScale: {
       scaleType: d3.scaleSequential,
-      colorScheme: d3.interpolateOranges,
+      colorScheme: d3.interpolateOranges, // interpolateYlGn
       domain: [0, 100]
     }
   };
@@ -146,25 +148,21 @@ class CountyMap {
 
   makeLookupObj(mapData) {
     const props = this.props()
-
     let lookupObj = {};
 
     /* Check mapData to see how it is structured and make a lookup object for mapData.
      Your data should look like chroloplethCountiesData.json if it's flat (every data point = every county).
-     Your data should look like hloroplethData.json if it's organised by states.
+     Your data should look like chroloplethData.json if it's organised by states.
      */
 
     if (props.data.dataOrganizedBy == 'county') {
-
       mapData.forEach((d) => {
         lookupObj[d.fips] = d
         /* If you need to make calculations and map out those values, do something like this:  */
         //  lookupObj[d.fips]['calculatedValue'] = (d.OutageCount / d.CustomerCount) * 100;
         // });
       });
-
     } else if (props.data.dataOrganizedBy == 'state') {
-
       Object.keys(mapData)
         .filter((stateName) => stateName !== props.data.ignoreColumn)
         .forEach((stateName) => {
@@ -183,7 +181,6 @@ class CountyMap {
           } else {
             stateData = mapData[stateName]
           }
-
         });
     } else {
       console.log('ERROR! Check your data structure. Write your own code to structure your data if necessary')
