@@ -1,16 +1,16 @@
-import 'd3-transition';
+import '../../_snowpack/pkg/d3-transition.js';
 
-import * as d3 from 'd3';
-import * as topojson from 'topojson-client';
-import * as utils from './utils';
+import * as d3 from '../../_snowpack/pkg/d3.js';
+import * as topojson from '../../_snowpack/pkg/topojson-client.js';
+import * as utils from './utils.js';
 
-import { appendSelect } from 'd3-appendselect';
+import { appendSelect } from '../../_snowpack/pkg/d3-appendselect.js';
 // import cities from './data/cities.json';
-import labelPos from './data/labelPos.json';
-import merge from 'lodash/merge';
+import labelPos from './data/labelPos.json.proxy.js';
+import merge from '../../_snowpack/pkg/lodash/merge.js';
 // import statePlanes from './data/statePlanes_fips.json';
-import statestyle from './data/statestyle.json';
-import topo from './data/us-county-topo.json';
+import statestyle from './data/statestyle.json.proxy.js';
+import topo from './data/us-county-topo.json.proxy.js';
 
 d3.selection.prototype.appendSelect = appendSelect;
 

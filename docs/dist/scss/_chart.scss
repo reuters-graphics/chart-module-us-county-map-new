@@ -1,0 +1,68 @@
+@import '~@reuters-graphics/style-theme-eisbaer/scss/main';
+@import '~@reuters-graphics/style-color/scss/thematic/brand';
+
+$CountyMap-container: '.us-county-map-container' !default;
+$defaultFill: $gray-100;
+
+#{$CountyMap-container} {
+  /* Write your chart styles here */
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  font-family: $font-family-sans-serif;
+
+  &.small {
+    //Special small styles go here.
+    //Class is controlled from makeMap.js
+  }
+
+  .county {
+    stroke: white;
+    stroke-width: 0.5;
+    fill: $defaultFill;
+  }
+
+  .state {
+    stroke: none;
+    fill: $defaultFill;
+    display: none;
+  }
+
+  .borders {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+  }
+
+  .state-label {
+    pointer-events: none;
+
+    text {
+      fill: $gray-600;
+      text-anchor: middle;
+      font-size: 1rem;
+
+      &.num {
+        fill: $gray-600;
+        font-weight: 700;
+      }
+
+      &.bkgd {
+        fill: rgba(255, 255, 255, 0.7) !important;
+        paint-order: stroke;
+        stroke: rgba(255, 255, 255, 0.7) !important;
+        stroke-width: 5px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    }
+  }
+
+  .intx-g {
+    path {
+      stroke: $gray-600;
+      stroke-width: 2;
+      fill: none;
+    }
+  }
+}

@@ -10,10 +10,13 @@ Follow the notes below! -->
   import choroplethCountiesData from '../js/data/choroplethCountiesData.json';
   import * as d3 from 'd3';
 
+  let propsReadmeURL = '';
+
   let chartContainer;
 
   let chart = new CountyMap();
   let partialChart = new CountyMap();
+
   let hideOtherStates = true;
   let missingDataFill = 'lightgrey';
   let showTheseStates = ['Alabama', 'Louisiana', 'Mississippi'];
@@ -28,27 +31,52 @@ Follow the notes below! -->
     projection: projection,
 
     data: {
-      source: 'url', // 'local' or 'url'
-      dataOrganizedBy: 'state', // 'county' OR 'state'
-      ignoreColumn: 'timeStamp', // if there is a col in your data you want to ignore. Set to null if not using. Only works if dataOrganizedBy: 'state'
-      nestedInThisCol: 'WebCountyRecord', // If your county data inside each state is further nested in another col. Set to null if not using. Only works if dataOrganizedBy: 'state'
+      source: 'local', // 'local' or 'url'
+      nestedByState: true,
+      getCountyData: (d) => d.WebCountyRecord.values, // Only necessary if your data is nested. Specify the column in your data that countains the county-level data values you want to map
+      getFipsCode: (d) => d.fips, // Col in your data that contains the county fips code
       url: 'https://graphics.thomsonreuters.com/data/ida_power.json',
       valueColName: 'OutageCount', // Column name of the values you want to chart
       missingDataFill: missingDataFill,
     },
   };
 
-  // let chartData = getRandomData();
+  let source = 'local';
+  let nestedByState = true;
+  let getCountyData = (d) => d.WebCountyRecord.values;
+  let url = 'https://graphics.thomsonreuters.com/data/ida_power.json';
+
+  let flatProps = {
+    data: {
+      source: 'local', // 'local' or 'url'
+      nestedByState: false,
+      // getCountyData: getCountyData, // Only necessary if your data is nested. Specify the column in your data that countains the county-level data values you want to map
+      // getFipsCode: (d) => d.fips, // Col in your data that contains the county fips code
+      // url: url,
+    },
+  };
+
+  let nestedProps = {
+    source: 'local', // 'local' or 'url'
+    nestedByState: true,
+    getCountyData: getCountyData,
+    // getFipsCode: (d) => d.fips,
+  };
+
+  let pullFromUrl = {
+    source: 'url', // 'local' or 'url'
+    nestedByState: true,
+    getCountyData: (d) => d.WebCountyRecord,
+    // getFipsCode: (d) => d.fips,
+    url: url,
+  };
 
   afterUpdate(() => {
-    // 💪 Create a new chart instance of your module.
-    chart = new CountyMap();
-    // ⚡ And let's use your chart!
     chart.selection(chartContainer).props({ data: null }).draw(); // 🚀 DRAW IT!
 
     partialChart
       .selection('#partial-map')
-      .mapData(choroplethCountiesData) //  choroplethCountiesData choroplethData
+      .mapData(choroplethData) //  choroplethCountiesData (not nested) choroplethData (nested by state)
       .props(partialMapProps)
       .draw();
   });
@@ -61,10 +89,6 @@ Follow the notes below! -->
   </p>
   <p>
     <a href="" target="_blank">Readme for props</a>
-  </p>
-  <p>
-    Note: Styles, such as fill and stroke colour, are set in the _chart.scss
-    compoenet. If you want to customise, use ejector.
   </p>
 </div>
 
@@ -100,7 +124,7 @@ if you want to draw just a base map with no data
   <div id="partial-map" class="us-county-map-container pb-3" />
 </div>
 
-<div class="chart-options pb-4">
+<div class="chart-options basic pb-4">
   <!-- ✏️ Create buttons that update your data/props variables when they're clicked! -->
   <button
     on:click={() => {
@@ -206,29 +230,98 @@ chart
     .draw()
 
 See the <a
-    href=""
+    href={propsReadmeURL}
     target="_blank">README for all props</a
   >
   </code>
   </pre>
 
-<h2 class="pt-4">Accessing your data</h2>
+<h2 class="">Accessing your data</h2>
 <p>
   There are two ways for accessing your data: via a local json file and via a
-  URL containing a json file.
+  URL containing a json file. The props in this module also let you deal with
+  nested data.
+</p>
+<p>
+  Note: the map below won't change because it's showing the same data that's
+  structured differently or is pulled from different sources.
 </p>
 
-<p>
-  Note: You can pull json data from a URL using props too. See the <a
-    href=""
-    target="_blank">README for all props</a
-  >
+<p class="pt-2 pb-3">
+  See the <a href={propsReadmeURL} target="_blank">README for all props</a>
 </p>
+
+<div class="flat-local-data">
+  <h4>Local data with flat structure</h4>
+
+  <Explorer title="Props you need to change" data={flatProps} />
+
+  <h5>Notes on data</h5>
+  <p>Attach your local data to your map using .mapData()</p>
+  <pre>
+  <code>
+chart
+    .selection(yourChartContainer)
+    .mapData(yourLocalData)
+    .props(yourProps)
+    .draw()
+  </code>
+</pre>
+  <Explorer title="" data={choroplethCountiesData} />
+</div>
+
+<div class="nested-local-data pt-5">
+  <h4>Nested local data</h4>
+
+  <Explorer title="Props you need to change" data={nestedProps} />
+
+  <!-- 
+  <h5>Notes on data</h5>
+  <p>Attach your local data to your map using .mapData()</p>
+  <pre>
+  <code>
+chart
+    .selection(yourChartContainer)
+    .mapData(yourLocalData)
+    .props(yourProps)
+    .draw()
+  </code>
+</pre> -->
+  <Explorer title="Nested data" data={choroplethData} />
+</div>
+
+<div class="nested-url-data pt-5 pb-4">
+  <h4>Nested data from URL</h4>
+
+  <Explorer title="Props you need to change" data={pullFromUrl} />
+
+  <h5>Notes on data</h5>
+  <p>
+    If pulling data from URL, do not add .mapData(). Instead, we are specifying
+    the data source (URL) in the props. So, when you draw the map, it should
+    look like this:
+  </p>
+  <pre>
+  <code>
+chart
+    .selection(yourChartContainer)
+    .props(yourProps)
+    .draw()
+  </code>
+</pre>
+
+  <p>
+    Click <a
+      href="https://graphics.thomsonreuters.com/data/ida_power.json"
+      target="_blank">here</a
+    > to see the data
+  </p>
+</div>
 
 <!-- ⚙️ These components will automatically create interactive documentation for you chart! -->
 <Docs />
-<Explorer title="Data" data={chart.data()} />
-<Explorer title="Props" data={chart.props()} />
+<Explorer title="Choropleth data" data={partialChart.mapData()} />
+<Explorer title="Default props" data={chart.props()} />
 
 <!-- 🖌️ Style your demo page here -->
 <style lang="scss">
@@ -244,4 +337,9 @@ See the <a
       padding: 5px 15px;
     }
   }
+
+  // .row {
+  //   margin-left: -300px;
+  //   width: 1300px;
+  // }
 </style>
