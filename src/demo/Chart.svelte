@@ -36,7 +36,7 @@ Follow the notes below! -->
       getCountyData: (d) => d.WebCountyRecord.values, // Only necessary if your data is nested. Specify the column in your data that countains the county-level data values you want to map
       getFipsCode: (d) => d.fips, // Col in your data that contains the county fips code
       url: 'https://graphics.thomsonreuters.com/data/ida_power.json',
-      valueColName: 'OutageCount', // Column name of the values you want to chart
+      getValue: (d) => d.OutageCount, //Column name of the values you want to chart for each county
       missingDataFill: missingDataFill,
     },
   };
@@ -50,6 +50,7 @@ Follow the notes below! -->
     data: {
       source: 'local', // 'local' or 'url'
       nestedByState: false,
+      getValue: (d) => d.OutageCount, //Column name of the values you want to chart for each county
       // getCountyData: getCountyData, // Only necessary if your data is nested. Specify the column in your data that countains the county-level data values you want to map
       // getFipsCode: (d) => d.fips, // Col in your data that contains the county fips code
       // url: url,
@@ -60,6 +61,7 @@ Follow the notes below! -->
     source: 'local', // 'local' or 'url'
     nestedByState: true,
     getCountyData: getCountyData,
+    getValue: (d) => d.OutageCount, //Column name of the values you want to chart for each county
     // getFipsCode: (d) => d.fips,
   };
 
@@ -67,6 +69,7 @@ Follow the notes below! -->
     source: 'url', // 'local' or 'url'
     nestedByState: true,
     getCountyData: (d) => d.WebCountyRecord,
+    getValue: (d) => d.OutageCount, //Column name of the values you want to chart for each county
     // getFipsCode: (d) => d.fips,
     url: url,
   };
@@ -157,7 +160,7 @@ if you want to draw just a base map with no data
           getCountyData: (d) => d.WebCountyRecord.values, // Only necessary if your data is nested. Specify the column in your data that countains the county-level data values you want to map
           getFipsCode: (d) => d.fips, // Col in your data that contains the county fips code
           url: 'https://graphics.thomsonreuters.com/data/ida_power.json',
-          valueColName: 'OutageCount', // Column name of the values you want to chart
+          getValue: (d) => d.OutageCount, //Column name of the values you want to chart for each county
           missingDataFill: 'light',
         },
       };
@@ -282,7 +285,7 @@ See the <a
   <code>
 chart
     .selection(yourChartContainer)
-    .mapData(yourLocalData)
+    .mapData(<a href='https://github.com/reuters-graphics/chart-module-us-county-map-new/blob/master/src/js/data/choroplethCountiesData.json' target='_blank'>yourLocalFlatData</a>)
     .props(yourProps)
     .draw()
   </code>
@@ -295,18 +298,15 @@ chart
 
   <Explorer title="Props you need to change" data={nestedProps} />
 
-  <!-- 
-  <h5>Notes on data</h5>
-  <p>Attach your local data to your map using .mapData()</p>
   <pre>
   <code>
 chart
     .selection(yourChartContainer)
-    .mapData(yourLocalData)
+    .mapData(<a href='https://github.com/reuters-graphics/chart-module-us-county-map-new/blob/master/src/js/data/choroplethData.json' target='_blank'>yourLocalNestedData</a>)
     .props(yourProps)
     .draw()
   </code>
-</pre> -->
+</pre>
   <Explorer title="Nested data" data={choroplethData} />
 </div>
 
@@ -340,8 +340,8 @@ chart
 
 <!-- ⚙️ These components will automatically create interactive documentation for you chart! -->
 <Docs />
-<Explorer title="Choropleth data" data={partialChart.mapData()} />
-<Explorer title="Default props" data={chart.props()} />
+<!-- <Explorer title="Choropleth data" data={partialChart.mapData()} /> -->
+<Explorer title="Default base map props" data={chart.props()} />
 
 <!-- 🖌️ Style your demo page here -->
 <style lang="scss">

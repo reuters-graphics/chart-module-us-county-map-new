@@ -268604,14 +268604,16 @@ var CountyMap = /*#__PURE__*/function () {
           return d.WebCountyRecord.values;
         },
         // Only necessary if your data is nested. Specify the column in your data that countains the county-level data values you want to map
+        getValue: function getValue(d) {
+          return d.OutageCount;
+        },
+        //Column name of the values you want to chart for each county
         getFipsCode: function getFipsCode(d) {
           return d.fips;
         },
         // Col in your data that contains the county fips code
         url: 'https://graphics.thomsonreuters.com/data/ida_power.json',
         // Leave null if pulling data from a local json file
-        valueColName: 'OutageCount',
-        // Column name of the values you want to chart
         missingDataFill: 'white'
       },
       // Colour scale
@@ -268755,7 +268757,7 @@ var CountyMap = /*#__PURE__*/function () {
           stateData.forEach((d) => {
             lookupObj[props.data.getFipsCode(d)] = d;
             lookupObj[props.data.getFipsCode(d)]['state'] = mapDataKey;
-            lookupObj[props.data.getFipsCode(d)][props.data.valueColName] = d[props.data.valueColName]
+            lookupObj[props.data.getFipsCode(d)][props.data.getValue(datum)] = d[props.data.getValue(datum)]
           });
         });
       */
@@ -268911,7 +268913,7 @@ var CountyMap = /*#__PURE__*/function () {
         if (!datum) {
           return props.data.missingDataFill; // Make white if data for this county
         } else {
-          return _this3.colorScale(datum[props.data.valueColName]);
+          return _this3.colorScale(props.data.getValue(datum));
         }
       });
       this.drawStates();
@@ -268943,7 +268945,7 @@ var CountyMap = /*#__PURE__*/function () {
           if (!datum) {
             return props.data.missingDataFill; // Make white if data for this county
           } else {
-            return _this4.colorScale(datum[props.data.valueColName]);
+            return _this4.colorScale(props.data.getValue(datum));
           }
         });
 

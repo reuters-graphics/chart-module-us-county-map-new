@@ -4,7 +4,7 @@ import * as utils from './utils';
 
 import { appendSelect } from 'd3-appendselect';
 // import choroplethData from './data/choroplethData.json'
-import choroplethCountiesData from './data/choroplethCountiesData.json';
+// import choroplethCountiesData from './data/choroplethCountiesData.json';
 import fipsStateCodes from './data/fipsStateCodes.json';
 import labelPos from './data/labelPos.json';
 import merge from 'lodash/merge';
@@ -79,9 +79,9 @@ class CountyMap {
       source: 'url', // or 'local' or null if not mapping any data
       nestedByState: true, // Set to false if your data is flat
       getCountyData: (d) => d.WebCountyRecord.values, // Only necessary if your data is nested. Specify the column in your data that countains the county-level data values you want to map
+      getValue: (d) => d.OutageCount, //Column name of the values you want to chart for each county
       getFipsCode: (d) => d.fips, // Col in your data that contains the county fips code
       url: 'https://graphics.thomsonreuters.com/data/ida_power.json', // Leave null if pulling data from a local json file
-      valueColName: 'OutageCount', // Column name of the values you want to chart
       missingDataFill: 'white',
     },
 
@@ -194,7 +194,7 @@ class CountyMap {
         stateData.forEach((d) => {
           lookupObj[props.data.getFipsCode(d)] = d;
           lookupObj[props.data.getFipsCode(d)]['state'] = mapDataKey;
-          lookupObj[props.data.getFipsCode(d)][props.data.valueColName] = d[props.data.valueColName]
+          lookupObj[props.data.getFipsCode(d)][props.data.getValue(datum)] = d[props.data.getValue(datum)]
         });
       });
 */
@@ -377,7 +377,7 @@ class CountyMap {
         if (!datum) {
           return props.data.missingDataFill; // Make white if data for this county
         } else {
-          return this.colorScale(datum[props.data.valueColName]);
+          return this.colorScale(props.data.getValue(datum));
         }
       });
 
@@ -410,7 +410,7 @@ class CountyMap {
           if (!datum) {
             return props.data.missingDataFill; // Make white if data for this county
           } else {
-            return this.colorScale(datum[props.data.valueColName]);
+            return this.colorScale(props.data.getValue(datum));
           }
         });
 
