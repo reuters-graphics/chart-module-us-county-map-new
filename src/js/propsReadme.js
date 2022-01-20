@@ -1,4 +1,4 @@
-defaultProps = {
+const = defaultProps = {
   aspectHeight: 0.66, // Set height of map
   margin: {
     top: 0,
